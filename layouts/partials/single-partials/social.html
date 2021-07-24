@@ -1,0 +1,28 @@
+<div class="share sticky-top sticky-top-offset">
+    <p>Share</p>
+    <ul>
+        <li class="ml-1 mr-1">
+            <a target="_blank" href="https://twitter.com/{{ .Params.twitter }}"
+                onclick="window.open(this.href, 'twitter', 'width=550,height=435');return false;">
+                <i class="fab fa-twitter"></i>
+            </a>
+        </li>
+
+        <li class="ml-1 mr-1">
+            <a target="_blank" href="https://twitch.tv/{{ .Params.twitch }}"
+                onclick="window.open(this.href, 'twitch', 'width=550,height=435');return false;">
+                <i class="fab fa-twitch"></i>
+            </a>
+        </li>
+
+        <li class="ml-1 mr-1">
+            <a target="_blank" href="https://github.com/{{ .Params.github }}"
+                onclick="window.open(this.href, 'github', 'width=550,height=435');return false;">
+                <i class="fab fa-github"></i>
+            </a>
+        </li>
+
+    </ul>
+
+
+</div>

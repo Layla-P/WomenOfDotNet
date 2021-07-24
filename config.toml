@@ -1,0 +1,45 @@
+baseURL = "https://womenofdot.net"
+title = "#WomenOfDotNet"
+languageCode= "en-us"
+defaultContentLanguage= "en"
+theme = "mediumish-gohugo-theme"
+summaryLength = 25
+copyright = "Layla Porter - All rights reserved"
+enableEmoji = true
+publishDir = "docs"
+#googleAnalytics = "UA-1XXXXXXX1-1"
+
+[params]
+  logo = "/images/women.png"
+  description ="A site dedicated to all the awesome individuals in the .NET space that identify as women!"
+ 
+
+
+[params.index]
+  picture = "/images/women.png"
+  title = "#WomenOfDotNet"
+  subtitle = "A site dedicated to all the awesome individuals in the .NET space that identify as women!"
+
+  alertbar = false
+
+[params.social]
+  github = "<username>"
+  linkedin = "<username>"
+  xing = "<username>"
+  medium = "<username>"
+  twitter = "<username>"
+  instagram = "<username>"
+
+## Main Menu
+[[menu.main]]
+    name = "Profiles"
+    weight = 100
+    identifier = "profiles"
+    url = "/profiles"
+[[menu.main]]
+    name = "About"
+    identifier = "about"
+    weight = 200
+    url = "/about"
+
+#<a href='https://www.freepik.com/vectors/woman'>Woman vector created by freepik - www.freepik.com</a>
