@@ -2,7 +2,7 @@
 title: "Sophie Obomighie"
 profileimage: "/images/profile-pictures/sophie-obomighie.jpg"
 coverimage: "/images/profile-pictures/sophie-obomighie-cover.PNG"
-tags: ["C#", "Speaking - in person", "Speaking - virtual","MC","Panels","Mentorship"]
+tags: ["C#","Speaking Virtually"]
 twitter: "sophieobomighie"
 github: "ochuwa-sophie"
 
