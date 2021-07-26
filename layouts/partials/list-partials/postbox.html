@@ -11,13 +11,16 @@
         <div class="card-body">
             <h2 class="card-title"><a class="text-dark" href="{{ .Permalink }}">{{ .Title }}</a></h2>
             <h4 class="card-text">{{ .Params.summary }}</h4>
+                    
             {{ range .Params.tags }}
             <span class="badge badge-purple"> {{ . }}</span>
             {{ end }}
 
         </div>
         <div class="card-footer bg-white">
-
+            {{if .Params.location}}
+            <span class="">Location: {{ .Params.location}}</span>
+            {{ end }}    
         </div>
     </div>
 </div>

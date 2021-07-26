@@ -12,11 +12,15 @@ linkedin: ""
 comments: false
 summary: "A couple of sentences about you"
 draft: true
+location: ""
 ---
 
-<- The above is called front matter - please delete the irrelevent info and remove the 'draft: true'->
+
 ### About me
 ##### **HEADLINE DATA**
+
+# REMOVE THIS LINE The above is called front matter - please delete the irrelevent info and remove the 'draft: true'
+
 Info on you - please change the tags above to suit you!!
 
 Please use tiny png or similar to reduce the size of your images

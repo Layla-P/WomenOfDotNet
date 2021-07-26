@@ -8,7 +8,10 @@ github: "layla-p"
 twitch: "laylacodesit"
 comments: false
 summary: "I am a Developer Advocate at VMware serving the .NET community. I am a Live Coder on Twitch, a Microsoft MVP, and a GitHub Star."
+location: "UK"
 ---
+
+
 ### About me
 ##### **Live Coder, Microsoft MVP, GitHub Star, Director - .NET Foundation**
 I am a Developer Advocate at VMware serving the .NET community. I am a Live Coder on Twitch, a Microsoft MVP, a GitHub Star, a director on the board of the .NET Foundation, and co-organiser of MK .NET user group. I love sharing knowledge whilst having fun. No question is stupid and beginners are always welcome.
