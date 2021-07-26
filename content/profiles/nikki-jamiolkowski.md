@@ -1,7 +1,7 @@
 ---
 title: "Nikki Jamiolkowski"
-profileimage: "/images/profile-pictures/your-profile.jpg"
-coverimage: "/images/profile-pictures/your-cover.jpg"
+profileimage: "/images/profile-pictures/nikki-jamiolkowski.jpg"
+coverimage: "/images/profile-pictures/nikki-jamiolkowski-cover.jpg"
 tags: ["CSharp", "ASP.Net", "Azure", "Platform tools", "Speaking - in person", "Speaking - virtual", "Panels", "Non-Binary"]
 twitter: "niktastik"
 github: "niktastik"
