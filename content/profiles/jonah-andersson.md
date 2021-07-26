@@ -11,9 +11,7 @@ blogsite: "https://jonahandersson.tech/"
 linkedin: "https://www.linkedin.com/in/jonahandersson"
 comments: false
 summary: "I am a Microsoft MVP for Azure, Software Engineer, Certified Azure Developer, Microsoft Certified Trainer
-Tech Mentor, Public Speaker, Author, Blogger. Genuine, Humble, Brave, Sincere. Love Learning! 
-"
-draft: true
+Tech Mentor, Public Speaker, Author, Blogger. Genuine, Humble, Brave, Sincere. Love Learning!"
 location: "Sweden"
 ---
 
