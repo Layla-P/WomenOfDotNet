@@ -7,7 +7,7 @@ twitter: "amoweo"
 github: "amoweolubusayo"
 linkedin : "https://www.linkedin.com/in/amoweolubusayo"
 comments: false
-summary: "I am a .NET Developer and a huge man of MS products."
+summary: "I am a .NET Developer and a huge fan of MS products."
 location: "Lagos,Nigeria"
 ---
 
