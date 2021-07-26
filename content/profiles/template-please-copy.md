@@ -8,6 +8,7 @@ github: ""
 twitch: ""
 instagram: ""
 blogsite: ""
+linkedin: ""
 comments: false
 summary: "A couple of sentences about you"
 draft: true

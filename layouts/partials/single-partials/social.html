@@ -22,6 +22,13 @@
             </a>
         </li>
         {{ end }}
+        {{if .Params.linkedin}}
+        <li class="ml-1 mr-1">
+            <a target="_blank" href="https://github.com/{{ .Params.linkedin }}">
+                <i class="fab fa-linkedin"></i>
+            </a>
+        </li>
+        {{ end }}
         {{if .Params.blogsite}}
         <li class="ml-1 mr-1">
             <a target="_blank" href="https://github.com/{{ .Params.blogsite }}">
