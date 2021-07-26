@@ -6,7 +6,7 @@ theme = "mediumish-gohugo-theme"
 summaryLength = 25
 copyright = "Layla Porter - All rights reserved"
 enableEmoji = true
-publishDir = "docs"
+publishDir = "public"
 #googleAnalytics = "UA-1XXXXXXX1-1"
 
 [params]
