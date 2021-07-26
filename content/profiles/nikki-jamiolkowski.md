@@ -2,21 +2,22 @@
 title: "Nikki Jamiolkowski"
 profileimage: "/images/profile-pictures/your-profile.jpg"
 coverimage: "/images/profile-pictures/your-cover.jpg"
-tags: ["CSharp", "Speaking - in person", "Speaking - virtual", "Panels", "Mentorship", "Non-Binary", "Platform tools", "Azure"]
-twitter: "@niktastik"
-github: "https://github.com/niktastik/"
+tags: ["CSharp", "ASP.Net", "Azure", "Platform tools", "Speaking - in person", "Speaking - virtual", "Panels", "Non-Binary"]
+twitter: "niktastik"
+github: "niktastik"
+comments: false
 summary: "I have been coding since I was 8 years old, starting with LOGO on my family's Apple II. That ignited a love for BASIC, and the rest is history."
 location: "Pennsylvania, US"
 ---
 
 
 ### About me
-##### **HEADLINE DATA**
+##### **Full stack DotNet developer creating enterprise-grade platform tools**
 
-Info on you - please change the tags above to suit you!!
+I started my coding career writing order-fulfillment software for steel companies, and then moved over to the healthcare industry. Now, I'm working in the financial industry building platform tools for my fellow developers.
 
-Please use tiny png or similar to reduce the size of your images
+In my spare time, I'm playing a video game, chasing around my pets and kids, or enjoying the sunshine.
 
 ### Contact
 
-How to contact you
+Requests for engagement can be sent to phishphood0013 at gmail dot com
