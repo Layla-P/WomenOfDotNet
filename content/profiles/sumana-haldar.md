@@ -10,7 +10,6 @@ instagram: ""
 blogsite: ""
 comments: false
 summary: "I am a software developer in C#. I love C# and want to learn more about it."
-draft: true
 ---
 
 <- The above is called front matter - please delete the irrelevent info and remove the 'draft: true'->
