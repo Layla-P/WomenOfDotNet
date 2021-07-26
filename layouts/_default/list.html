@@ -5,6 +5,15 @@
 {{ define "main" }}
     {{- partial "_shared/title.html" . -}}
     <div class="main-content">
+        <div class="after-post-tags">
+            <ul class="tags">
+            {{ range .Params.tags }}
+            <li>
+            <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{.}}</a>
+            </li>
+            {{ end }}
+            </ul>
+        </div>
         <!-- Posts Index
         ================================================== -->
         <section class="recent-posts">            
