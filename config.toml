@@ -23,11 +23,11 @@ publishDir = "docs"
   alertbar = false
 
 [params.social]
-  github = "<username>"
+  github = "Layla-p/WomenOfDotNet"
   linkedin = "<username>"
   xing = "<username>"
   medium = "<username>"
-  twitter = "<username>"
+  twitter = "womendotnet"
   instagram = "<username>"
 
 ## Main Menu
@@ -42,4 +42,3 @@ publishDir = "docs"
     weight = 200
     url = "/about"
 
-#<a href='https://www.freepik.com/vectors/woman'>Woman vector created by freepik - www.freepik.com</a>

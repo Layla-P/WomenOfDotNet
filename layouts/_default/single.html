@@ -18,27 +18,23 @@
                     <div class="mainheading">
                         <!-- Author Box -->	
                         <div class="row post-top-meta">
+                            {{if .Params.profileimage}}
                             <div class="col-xs-12 col-md-3 col-lg-2 text-center text-md-left mb-4 mb-md-0 md-nopad-right">
                                 <img class="author-thumb" src="{{ .Params.profileimage | urlize | relURL}}" alt="{{ .Site.Params.author.name }}">
                             </div>
-                            
-                            <div class="col-xs-12 col-md-9 col-lg-10 text-center text-md-left md-nopad-left">
-                                
-                                <span class="author-description">
-                                    {{ .Params.title }}<br>
-                                    
-                                </span>					
+                            {{end}}
+                            <div class="col-xs-12 col-md-9 col-lg-10 text-center text-md-left md-nopad-left">                                
+                                <h3 class="posttitle">{{ .Title }}</h1>				
                             </div>
                         </div>			
                       
                         <!-- Post Title -->
-                        <h1 class="posttitle">{{ .Title }}</h1> 
+                        
                     </div>
 
                     <!-- Post Featured Image -->
-                    {{$images := .Resources.ByType "image"}}
-                    {{with $images.GetMatch "*cover*" }}
-                        <img class="featured-image img-fluid" src="{{ .Permalink }}" alt="thumbnail for this post">
+                    {{if .Params.coverimage}}
+                        <img class="featured-image img-fluid" src="{{  .Params.coverimage }}" alt="thumbnail for this post">
                     {{end}}
                     <!-- End Featured Image -->
 

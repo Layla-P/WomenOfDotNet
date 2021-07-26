@@ -3,17 +3,21 @@
     <div class="card h-100">
         <div class="maxthumb">
             <a href="{{ .Permalink }}">
-              
-                    <img class="img-fluid" src="{{ .Params.coverimage }}" alt="A thumbnail image">
-                    
+
+                <img class="img-fluid" src="{{ .Params.coverimage }}" alt="A cover image chosen by the individual">
+
             </a>
         </div>
         <div class="card-body">
             <h2 class="card-title"><a class="text-dark" href="{{ .Permalink }}">{{ .Title }}</a></h2>
-            <h4 class="card-text">{{ .Summary }}</h4>            
+            <h4 class="card-text">{{ .Params.summary }}</h4>
+            {{ range .Params.tags }}
+            <span class="badge badge-purple"> {{ . }}</span>
+            {{ end }}
+
         </div>
         <div class="card-footer bg-white">
-           
+
         </div>
     </div>
 </div>

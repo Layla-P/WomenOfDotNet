@@ -40,5 +40,10 @@
   }
   
   .bg-custom-2 {
-  background-image: linear-gradient(15deg, #68217a 0%, #85144b 100%);
+  background-image: linear-gradient(15deg, #76188d 0%, #85144b 100%);
+  }
+
+  .badge-purple{
+    color: #fff;
+    background-color: #76188d;  
   }
