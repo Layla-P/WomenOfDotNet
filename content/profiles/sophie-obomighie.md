@@ -5,6 +5,7 @@ coverimage: "/images/profile-pictures/sophie-obomighie-cover.PNG"
 tags: ["CSharp","Azure","MCT","Speaking - virtual"]
 twitter: "sophieobomighie"
 github: "ochuwa-sophie"
+location: "Lagos, Nigeria"
 
 comments: false
 ---
