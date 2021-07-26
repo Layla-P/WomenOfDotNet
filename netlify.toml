@@ -1,5 +1,5 @@
 [build]
-publish = "public"
+publish = "womenofdotnet/public"
 command = "hugo --gc --minify"
 
 [context.production.environment]
