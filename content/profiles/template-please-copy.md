@@ -2,7 +2,7 @@
 title: "Your Name"
 profileimage: "/images/profile-pictures/your-profile.jpg"
 coverimage: "/images/profile-pictures/your-cover.PNG"
-tags: ["C#", "Speaking - in person", "Speaking - virtual","MC","Panels","Mentorship"]
+tags: ["CSharp", "Speaking - in person", "Speaking - virtual","MC","Panels","Mentorship"]
 twitter: ""
 github: ""
 twitch: ""

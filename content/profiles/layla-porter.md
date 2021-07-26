@@ -2,7 +2,7 @@
 title: "Layla Porter"
 profileimage: "/images/profile-pictures/layla-porter.jpg"
 coverimage: "/images/profile-pictures/layla-porter-cover.PNG"
-tags: ["C#", "Speaking - in person", "Speaking - virtual","MC","Panels","Mentorship"]
+tags: ["CSharp", "Speaking - in person", "Speaking - virtual","MC","Panels","Mentorship"]
 twitter: "laylacodesit"
 github: "layla-p"
 twitch: "laylacodesit"
