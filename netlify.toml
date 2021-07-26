@@ -1,6 +1,5 @@
 [build]
 publish = "public"
-command = "npm install"
 command = "hugo --gc --minify"
 
 [context.production.environment]
