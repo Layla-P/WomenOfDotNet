@@ -1,7 +1,7 @@
 ---
 title: "Alyssa Nicoll"
-profileimage: "/images/profile-pictures/alyssa-nicoll.jpg"
-coverimage: "/images/profile-pictures/alyssa-nicoll-cover.jpg"
+profileimage: "/images/profile-pictures/alyssa-nicoll.png"
+coverimage: "/images/profile-pictures/alyssa-nicoll-cover.gif"
 tags: ["Speaking","CSharp","WinUI","Blazor",".NET","GDE","Speaking - in person","Speaking - Virtual","MC"]
 twitter: "https://twitter.com/AlyssaNicoll"
 github: "https://github.com/alyssamichelle"
