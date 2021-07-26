@@ -4,9 +4,6 @@
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
 
-#Ignoring themes
-themes/*
-
 # User-specific files
 *.rsuser
 *.suo
