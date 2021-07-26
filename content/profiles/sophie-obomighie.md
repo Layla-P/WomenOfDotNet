@@ -1,7 +1,7 @@
 ---
 title: "Sophie Obomighie"
 profileimage: "/images/profile-pictures/sophie-obomighie.jpg"
-coverimage: "/images/profile-pictures/sophie-obomighie-cover.PNG"
+coverimage: "/images/profile-pictures/sophie-obomighie-cover.jpg"
 tags: ["CSharp","Azure","MCT","Speaking - virtual"]
 twitter: "sophieobomighie"
 github: "ochuwa-sophie"
