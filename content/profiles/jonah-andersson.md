@@ -1,6 +1,6 @@
 ---
 title: "Jonah Andersson"
-profileimage: "https://azdurablefunctionstorage.blob.core.windows.net/blogcontent/JonahAndersson_ProfilePhoto.jpg"
+profileimage: "images/profile-pictures/JonahAndersson_ProfilePhoto.jpg "
 coverimage: "https://azcdnendpointjonahanderssontech.azureedge.net/wp-content/uploads/2020/05/CoverPageStartPage.png"
 tags: ["CSharp", "Public Speaking","Azure Developer","Programmer","Mentorship", "AzureMVP", "DotNet", "Fullstack", "Microsoft Certified Trainer"]
 twitter: "http://www.twitter.com/cjkodare"
