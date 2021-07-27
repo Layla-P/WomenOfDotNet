@@ -6,6 +6,7 @@ tags: ["CSharp", "Speaking - in person", "Speaking - virtual","MC","Panels","Men
 twitter: "laylacodesit"
 github: "layla-p"
 twitch: "laylacodesit"
+blogsite: "https://laylacodes.it"
 comments: false
 summary: "I am a Developer Advocate at VMware serving the .NET community. I am a Live Coder on Twitch, a Microsoft MVP, and a GitHub Star."
 location: "UK"
