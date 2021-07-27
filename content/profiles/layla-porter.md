@@ -2,7 +2,7 @@
 title: "Layla Porter"
 profileimage: "/images/profile-pictures/layla-porter.jpg"
 coverimage: "/images/profile-pictures/layla-porter-cover.jpg"
-tags: ["CSharp", "Speaking - in person", "Speaking - virtual","MC","Panels","Mentorship", "Azure", "MVP"]
+tags: ["CSharp", "Speaking - in person", "Speaking - virtual","MC","Panels","Mentorship", "Azure", "MVP", "JavaScript", "Blazor", "Web", "Serverless", "Microservices", "Architecture"]
 twitter: "laylacodesit"
 github: "layla-p"
 twitch: "laylacodesit"
@@ -10,6 +10,7 @@ blogsite: "https://laylacodes.it"
 comments: false
 summary: "I am a Developer Advocate at VMware serving the .NET community. I am a Live Coder on Twitch, a Microsoft MVP, and a GitHub Star."
 location: "UK"
+pronouns: "she/her"
 ---
 
 
