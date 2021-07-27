@@ -47,3 +47,7 @@
     color: #fff;
     background-color: #76188d;  
   }
+
+  ul.tags li {
+    padding: 10px 5px;
+  }
