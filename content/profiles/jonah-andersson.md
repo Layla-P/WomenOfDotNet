@@ -16,11 +16,10 @@ location: "Sweden"
 
 
 ### About me
+##### Microsoft MVP , Software Engineer, Azure Developer, Microsoft Certified Trainer, Speaker, Mentor, Author 
 
-##### **Microsoft MVP, Software Engineer, Azure Developer, MCT, Speaker, Mentor, Author **
 
-I love programming and I code fullstack development in C# .NET. I like the challeng of solving complex problems, programming back-end because I enjoy using my mind to find out and dig 
-deeper into the invisible logic behind a botton. I have great interest in developing applications in .NET with Microsoft Azure cloud technologies even on my free time. 
+I love programming and I code fullstack development in C# .NET. I like the challeng of solving complex problems, programming back-end because I enjoy using my mind to find out and dig deeper into the invisible logic behind a botton. I have great interest in developing applications in .NET with Microsoft Azure cloud technologies especially on my spare time. 
 
 I like continuous learning and development with Microsoft Azure and I passionately share my technical knowledge to others publicly and even at my workplace.
 You will also find me making difference by advocating tech, gender equality, diversity and inclusion. 
