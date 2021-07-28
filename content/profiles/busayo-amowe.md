@@ -5,7 +5,7 @@ coverimage: "/images/profile-pictures/busayo-amowe-cover.jpeg"
 tags: ["CSharp", ".NET",".NET core","Azure","Devops","AKS"]
 twitter: "amoweo"
 github: "amoweolubusayo"
-linkedin : "https://www.linkedin.com/in/amoweolubusayo"
+linkedin : "amoweolubusayo"
 comments: false
 summary: "I am a .NET Developer and a huge fan of MS products."
 location: "Lagos,Nigeria"

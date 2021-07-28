@@ -8,7 +8,7 @@ github: ""
 twitch: ""
 instagram: ""
 blogsite: ""
-linkedin: "https://www.linkedin.com/in/sumanahaldar"
+linkedin: "sumanahaldar"
 comments: false
 summary: "I am a software developer in C#. I love C# and want to learn more about it."
 ---
