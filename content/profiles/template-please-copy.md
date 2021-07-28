@@ -11,6 +11,7 @@ blogsite: ""
 linkedin: "just username - this is the bit after 'linkedin.com/in/'"
 comments: false
 summary: "A couple of sentences about you"
+pronouns: ""
 draft: true
 location: ""
 ---

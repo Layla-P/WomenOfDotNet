@@ -2,7 +2,7 @@
 title: "Poornima Nayar"
 profileimage: "/images/profile-pictures/poornima-nayar.jpg"
 coverimage: "/images/profile-pictures/poornima-nayar.jpg"
-tags: ["MVP","Azure","CSharp","Speaking - in person","Speaking - virtual"]
+tags: ["MVP","Azure","CSharp","Speaking - in person","Speaking - virtual","Umbraco"]
 twitter: "poornimanayar"
 github: "poornimanayar"
 blogsite: "https://poornimanayar.co.uk/"

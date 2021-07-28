@@ -4,7 +4,11 @@
         <div class="maxthumb">
             <a href="{{ .Permalink }}">
 
-                <img class="img-fluid" src="{{ .Params.coverimage }}" alt="A cover image chosen by the individual">
+              {{ if .Params.coverimage}}
+              <img class="img-fluid" src="{{ .Params.coverimage }}" alt="A cover image chosen by the individual">
+              {{else}}
+              <img class="img-fluid" src="/images/women.png" alt="A default image as the individual hasn't provided a cover image">
+              {{ end }}
 
             </a>
         </div>
