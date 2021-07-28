@@ -3,14 +3,15 @@ title: "Your Name"
 profileimage: "/images/profile-pictures/your-profile.jpg"
 coverimage: "/images/profile-pictures/your-cover.jpg"
 tags: []
-twitter: ""
-github: ""
-twitch: ""
-instagram: ""
+twitter: "just username"
+github: "just username"
+twitch: "just username"
+instagram: "just username"
 blogsite: ""
-linkedin: ""
+linkedin: "just username - this is the bit after 'linkedin.com/in/'"
 comments: false
 summary: "A couple of sentences about you"
+pronouns: ""
 draft: true
 location: ""
 ---

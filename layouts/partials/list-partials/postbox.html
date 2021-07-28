@@ -3,15 +3,21 @@
     <div class="card h-100">
         <div class="maxthumb">
             <a href="{{ .Permalink }}">
-
-                <img class="img-fluid" src="{{ .Params.coverimage }}" alt="A cover image chosen by the individual">
+                {{if .Params.coverimage}}
+                    {{if (eq .Params.coverimage "/images/profile-pictures/your-cover.jpg") }}
+                    <img class="img-fluid" src="/images/women.png"
+                        alt="A default image as the individual hasn't provided a cover image">
+                    {{else}}
+                    <img class="img-fluid" src="{{ .Params.coverimage }}" alt="A cover image chosen by the individual">
+                    {{ end }}
+                {{ end }}
 
             </a>
         </div>
         <div class="card-body">
             <h2 class="card-title"><a class="text-dark" href="{{ .Permalink }}">{{ .Title }}</a></h2>
             <h4 class="card-text">{{ .Params.summary }}</h4>
-                    
+
             {{ range .Params.tags }}
             <span class="badge badge-purple"> {{ . }}</span>
             {{ end }}
@@ -20,7 +26,7 @@
         <div class="card-footer bg-white">
             {{if .Params.location}}
             <span class="">Location: {{ .Params.location}}</span>
-            {{ end }}    
+            {{ end }}
         </div>
     </div>
 </div>

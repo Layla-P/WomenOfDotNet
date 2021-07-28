@@ -1,5 +1,8 @@
 # #WomenOFDotNet
-Hello and welcome to the source code for the [WomenOfDot.NEt](https://womenofdot.net) project.
+Hello and welcome to the source code for the [WomenOfDot.NET](https://womenofdot.net) project.
+
+<img width="1091" alt="women-of-dotnet" src="https://user-images.githubusercontent.com/4635843/127243469-bcc01cfb-8ce9-430b-b82d-368a4509dc3f.png">
+
 
 ## Adding yourself to the profiles index.
 
