@@ -24,8 +24,11 @@
                             </div>
                             {{end}}
                             <div class="col-xs-12 col-md-9 col-lg-10 text-center text-md-left md-nopad-left">                                
-                                <h3 class="posttitle">{{ .Title }}</h1>				
-                            </div>
+                                <h3 class="posttitle">{{ .Title }}</h3>
+                                {{if .Params.pronouns}}
+                                <h5>{{ .Params.pronouns }}</h5>	
+                                {{end}}			
+                            </div>                                                     
                         </div>			
                       
                         <!-- Post Title -->

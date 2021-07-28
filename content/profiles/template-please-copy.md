@@ -2,15 +2,16 @@
 title: "Your Name"
 profileimage: "/images/profile-pictures/your-profile.jpg"
 coverimage: "/images/profile-pictures/your-cover.jpg"
-tags: ["CSharp", "Speaking - in person", "Speaking - virtual","MC","Panels","Mentorship"]
-twitter: ""
-github: ""
-twitch: ""
-instagram: ""
+tags: []
+twitter: "just username"
+github: "just username"
+twitch: "just username"
+instagram: "just username"
 blogsite: ""
-linkedin: ""
+linkedin: "just username - this is the bit after 'linkedin.com/in/'"
 comments: false
 summary: "A couple of sentences about you"
+pronouns: ""
 draft: true
 location: ""
 ---
@@ -20,6 +21,8 @@ location: ""
 ##### **HEADLINE DATA**
 
 # REMOVE THIS LINE The above is called front matter - please delete the irrelevent info and remove the 'draft: true'
+
+# ADD TAGS TO THE TAG ARRAY ABOVE - TAGS ARE FOUND HERE: https://github.com/Layla-P/WomenOfDotNet/blob/main/content/profiles/_index.md  - IF YOU WANT TO ADD A TAG, MAKE A pr TO THIS FILE :-)
 
 Info on you - please change the tags above to suit you!!
 

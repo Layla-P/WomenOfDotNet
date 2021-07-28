@@ -1,19 +1,16 @@
 ---
 title: "Jonah Andersson"
-profileimage: "https://azdurablefunctionstorage.blob.core.windows.net/blogcontent/JonahAndersson_ProfilePhoto.jpg"
+profileimage: "images/profile-pictures/JonahAndersson_ProfilePhoto.jpg "
 coverimage: "https://azcdnendpointjonahanderssontech.azureedge.net/wp-content/uploads/2020/05/CoverPageStartPage.png"
 tags: ["CSharp", "Public Speaking","Azure Developer","Programmer","Mentorship", "AzureMVP", "DotNet", "Fullstack", "Microsoft Certified Trainer"]
-twitter: "http://www.twitter.com/cjkodare"
-github: "https://github.com/jonahandersson"
+twitter: "cjkodare"
+github: "jonahandersson"
 twitch: ""
-instagram: "https://instagram.com/jonahandersson_ladyprogrammer"
+instagram: "jonahandersson_ladyprogrammer"
 blogsite: "https://jonahandersson.tech/"
-linkedin: "https://www.linkedin.com/in/jonahandersson"
+linkedin: "jonahandersson"
 comments: false
-summary: "I am a Microsoft MVP for Azure, Software Engineer, Certified Azure Developer, Microsoft Certified Trainer
-Tech Mentor, Public Speaker, Author, Blogger. Genuine, Humble, Brave, Sincere. Love Learning! 
-"
-draft: true
+summary: "I am a Microsoft MVP for Azure, Software Engineer, Certified Azure Developer, Microsoft Certified Trainer, Tech Mentor, Public Speaker, Author, Blogger. Genuine, Humble, Brave, Sincere. Love Learning!"
 location: "Sweden"
 ---
 
