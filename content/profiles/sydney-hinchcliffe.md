@@ -1,7 +1,7 @@
 ---
 title: "Sydney Hinchcliffe"
 profileimage: "/images/profile-pictures/Sydney-TPP.jpg"
-coverimage: "/images/profile-pictures/your-cover.jpg"
+coverimage: "/images/profile-pictures/Sydney-CP.jpg"
 tags: ["CSharp", "FSharp", "Speaking - in person", "Speaking - virtual", "MeetUp Organiser"]
 twitter: "Sydney_iO"
 github: "Sydney_iO"
