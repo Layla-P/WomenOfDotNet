@@ -4,11 +4,11 @@ profileimage: "/images/profile-pictures/sara-olsson-profile.jpg"
 coverimage: "/images/profile-pictures/sara-olsson-cover.jpg"
 tags: ["Azure", "MC", "CSharp", "Web", "Architecture", "JavaScript"]
 twitter: ""
-github: "https://github.com/SaraOlsson"
+github: "SaraOlsson"
 twitch: ""
 instagram: ""
 blogsite: "https://driventjej.se/"
-linkedin: "https://www.linkedin.com/in/sara-olsson/"
+linkedin: "sara-olsson/"
 comments: false
 summary: "I am a software developer with one foot in the IoT world. Love learning and sharing knowledge. Happy when I can combine tech with nature & animals."
 location: "Sweden"
