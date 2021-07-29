@@ -21,7 +21,7 @@
                 <h2><span>All Profiles</span></h2>                
             </div>            
             <div class="row listrecent">
-                {{ $post_paginator := .Paginate (.Pages) 6 }}
+                {{ $post_paginator := .Paginate (.Pages) 9 }}
                 {{ range $post_paginator.Pages.ByParam "title" }}
                     {{- partial "list-partials/postbox.html" . -}}
                 {{end}}

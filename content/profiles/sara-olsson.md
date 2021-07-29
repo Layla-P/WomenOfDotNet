@@ -1,7 +1,7 @@
 ---
 title: "Sara Olsson"
 profileimage: "/images/profile-pictures/sara-olsson-profile.jpg"
-coverimage: "/images/profile-pictures/sara-olsson-cover.jpg"
+coverimage: "/images/profile-pictures/sara-olsson-cover.jpeg"
 tags: ["Azure", "MC", "CSharp", "Web", "Architecture", "JavaScript"]
 twitter: ""
 github: "SaraOlsson"
