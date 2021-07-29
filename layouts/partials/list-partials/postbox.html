@@ -3,13 +3,14 @@
     <div class="card h-100">
         <div class="maxthumb">
             <a href="{{ .Permalink }}">
-                {{if .Params.coverimage}}
-                    {{if (eq .Params.coverimage "/images/profile-pictures/your-cover.jpg") }}
-                    <img class="img-fluid" src="/images/women.png"
-                        alt="A default image as the individual hasn't provided a cover image">
-                    {{else}}
-                    <img class="img-fluid" src="{{ .Params.coverimage }}" alt="A cover image chosen by the individual">
-                    {{ end }}
+                {{if (eq .Params.coverimage "/images/profile-pictures/your-cover.jpg") }}
+                <img class="img-fluid" src="/images/women.png"
+                    alt="A default image as the individual hasn't provided a cover image">
+                {{else if .Params.coverimage}}
+                <img class="img-fluid" src="{{ .Params.coverimage }}" alt="A cover image chosen by the individual">
+                {{else}}
+                <img class="img-fluid" src="/images/women.png"
+                    alt="A default image as the individual hasn't provided a cover image">
                 {{ end }}
 
             </a>
