@@ -6,7 +6,7 @@ tags: ["CSharp", "DotNET", "Speaking - in person", "Speaking - virtual","MC","Pa
 twitter: "meliss_houghton"
 github: "melissahoughton"
 blogsite: "https://melissahoughton.dev/"
-linkedin: "melissa-houghton"
+linkedin: "melissahoughton"
 comments: false
 summary: "Lead Software Engineer at Azenix | Microsoft MVP Developer Technologies | Community Organiser | International Speaker"
 pronouns: "she/her"
@@ -17,7 +17,7 @@ location: "Melbourne, AUS"
 ### 👋 About me
 ##### **Lead Software Engineer at Azenix | Microsoft MVP Developer Technologies | Community Organiser | International Speaker**
 
-Melissa Houghton (she/her) is a Lead Software Engineer at [Azenix](https://www.azenix.com.au/) and a [Microsoft MVP](https://mvp.microsoft.com/) in Developer Technologies.
+Melissa Houghton (she/her) is a Lead Software Engineer at [Azenix](https://www.azenix.com.au/) and a [Microsoft MVP](https://mvp.microsoft.com/en-us/PublicProfile/5004256) in Developer Technologies.
 
 Her work is focused on application development using Angular, .NET, and Azure, but she has a wide variety of skills and is always open to learning new things.
 
@@ -28,7 +28,7 @@ Originally from California, Melissa loves to travel and now lives in Melbourne, 
 ### 🌐 Connect with me
 
 - Twitter: [@meliss_houghton](https://twitter.com/meliss_houghton)
-- LinkedIn: https://www.linkedin.com/in/melissa-houghton/
+- LinkedIn: https://www.linkedin.com/in/melissahoughton/
 - Personal Website: https://melissahoughton.dev/
 - Polywork: https://www.polywork.com/melissahoughton
 - Speaker Profile: https://noti.st/melissahoughton
