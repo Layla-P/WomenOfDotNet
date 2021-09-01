@@ -1,6 +1,6 @@
 ---
 title: "Melissa Houghton"
-profileimage: "https://melissadevstorage.blob.core.windows.net/melissadevblob/about/headshot.jpg"
+profileimage: "/images/profile-pictures/melissa-houghton-profile.jpg"
 coverimage: "https://melissadevstorage.blob.core.windows.net/melissadevblob/about/NDC_Melbourne_29072021.jpg"
 tags: ["CSharp", "DotNET", "Speaking - in person", "Speaking - virtual","MC","Panels","Mentorship", "Azure", "MVP", "JavaScript", "Blazor", "Web", "Serverless", "Community"]
 twitter: "meliss_houghton"
