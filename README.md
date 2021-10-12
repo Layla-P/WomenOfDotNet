@@ -14,3 +14,13 @@ You can say as much or as little about yourself as you like!
 Add in information about your current talks or upcoming events. This page can serve you just as well as the community <3
 
 Feel free to add more photos if needed, just pop them in a folder within `static\images`!
+
+## Getting Started
+
+Please fork the repository to your own GitHub to make any changes.
+
+## Running the Website locally
+
+- Download Hugo from [gohugo.io](https://gohugo.io/)
+- In your preferred console, run `hugo -D server`
+- Go to the URL which is returned in the output to see the site!
