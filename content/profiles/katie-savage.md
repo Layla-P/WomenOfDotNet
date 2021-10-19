@@ -1,7 +1,7 @@
 ---
 title: "Katie Savage"
-profileimage: "/images/profile-pictures/your-profile.jpg"
-coverimage: "/images/profile-pictures/your-cover.jpg"
+profileimage: "/images/profile-pictures/katie-savage-profile.jpg"
+coverimage: "/images/profile-pictures/katie-savage-cover.jpg"
 tags: ["CSharp", ".NET"]
 github: "katiesavage"
 linkedin: "katie-savage-388662155/"
