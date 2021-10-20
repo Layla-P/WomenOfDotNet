@@ -18,7 +18,12 @@
         ================================================== -->
         <section class="recent-posts">            
             <div class="section-title">                
-                <h2><span>All Profiles</span></h2>                
+                
+                {{ if eq .Type "workshop" }}
+                    <h2><span>All Workshops</span></h2> 
+                {{ else }}              
+                    <h2><span>All Profiles</span></h2> 
+                {{end}}              
             </div>            
             <div class="row listrecent">
                 {{ $post_paginator := .Paginate (.Pages) 9 }}
