@@ -25,7 +25,7 @@
                 {{ range $post_paginator.Pages.ByParam "title" }}
                     {{ if eq .Type "workshop" }}
                         {{- partial "list-partials/workshop-postbox.html" . -}}
-                    {{ else }}}}               
+                    {{ else }}              
                         {{- partial "list-partials/postbox.html" . -}}
                     {{end}}
                 {{end}}
