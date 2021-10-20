@@ -23,7 +23,11 @@
             <div class="row listrecent">
                 {{ $post_paginator := .Paginate (.Pages) 9 }}
                 {{ range $post_paginator.Pages.ByParam "title" }}
-                    {{- partial "list-partials/postbox.html" . -}}
+                    {{ if eq .Type "workshop" }}
+                        {{- partial "list-partials/workshop-postbox.html" . -}}
+                    {{ else }}}}               
+                        {{- partial "list-partials/postbox.html" . -}}
+                    {{end}}
                 {{end}}
             </div>
         </section>

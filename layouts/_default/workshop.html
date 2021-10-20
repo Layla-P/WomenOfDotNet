@@ -3,39 +3,25 @@
 {{ end }}
 
 {{ define "main" }}
-{{- partial "_shared/title.html" . -}}
+{{- partial "_shared/workshop-header.html" . -}}
 <div class="main-content">
     <!-- Begin Article
         ================================================== -->
     <div class="container">
-        <div class="row">            
-            <!-- Post Share -->
-            <div class="col-md-2 pl-0">
-                {{- partial "single-partials/social.html" . -}}
-            </div>
+        <div class="row">
+            
             <!-- Post -->
             <div class="col-md-9 flex-first flex-md-unordered">
                 <div class="mainheading">
                     <!-- Author Box -->
                     <div class="row post-top-meta">
                         <div class="col-xs-12 col-md-3 col-lg-2 text-center text-md-left mb-4 mb-md-0 md-nopad-right">
-                            {{if (eq .Params.profileimage "/images/profile-pictures/your-profile.jpg") }}
-
-                            <img class="img-fluid" src="/images/women.png"
-                                alt="A default image as the individual hasn't provided a profile image">
-                            {{else if .Params.coverimage}}
                             <img class="author-thumb" src="{{ .Params.profileimage | urlize | relURL}}"
-                                alt="{{ .Site.Params.author.name }}">
-                            {{else}}
-                            <img class="img-fluid" src="/images/women.png"
-                                alt="A default image as the individual hasn't provided a profile image">
-                            {{ end }}
+                                alt="A profile picture of the author">                           
                         </div>
                         <div class="col-xs-12 col-md-9 col-lg-10 text-center text-md-left md-nopad-left">
                             <h3 class="posttitle">{{ .Title }}</h3>
-                            {{if .Params.pronouns}}
-                            <h5>{{ .Params.pronouns }}</h5>
-                            {{end}}
+                           
                         </div>
                     </div>
 
@@ -44,8 +30,8 @@
                 </div>
 
                 <!-- Post Featured Image -->
-                {{if .Params.coverimage}}
-                <img class="featured-image img-fluid" src="{{  .Params.coverimage }}" alt="thumbnail for this post">
+                {{if .Params.image}}
+                <img class="featured-image img-fluid" src="{{  .Params.image  | urlize | relURL}}" alt="{{ .Params.imagealt }}">
                 {{end}}
                 <!-- End Featured Image -->
 
@@ -54,17 +40,7 @@
                     {{ .Content}}
                 </div>
 
-                <!-- Post Categories -->
-                <div class="after-post-tags">
-                    <ul class="tags">
-                        {{ range .Params.tags }}
-                        <li>
-                            <a href="{{ " /tags/" | relLangURL }}{{ . | urlize }}">{{.}}</a>
-                        </li>
-                        {{ end }}
-                    </ul>
-                </div>
-                <!-- End Categories -->
+               
 
                 <!-- Next and PrevPage inside current section -->
                 <div class="row PageNavigation d-flex justify-content-between font-weight-bold">
@@ -83,9 +59,7 @@
     </div>
     <!-- End Article
         ================================================== -->
-    {{ if .Params.comments }}
-    {{- partial "single-partials/comments.html" . -}}
-    {{ end }}
+
 </div>
 {{- partial "_shared/alertbar.html" . -}}
 {{ end }}
