@@ -23,7 +23,7 @@
 
                             <img class="img-fluid" src="/images/women.png"
                                 alt="A default image as the individual hasn't provided a profile image">
-                            {{else if .Params.coverimage}}
+                            {{else if .Params.profileimage}}
                             <img class="author-thumb" src="{{ .Params.profileimage | urlize | relURL}}"
                                 alt="{{ .Site.Params.author.name }}">
                             {{else}}
