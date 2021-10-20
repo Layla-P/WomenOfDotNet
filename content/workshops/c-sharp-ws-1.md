@@ -3,7 +3,7 @@ author: "Layla Porter"
 profileimage: "/images/profile-pictures/layla-porter.jpg"
 date: 2021-10-20
 image: "/images/workshops/asphalt-dark-dawn-531321.jpg"
-imagealt: "A pretty picture"
+imagealt: "A photograph of a misty road with a shadowed trees overhead"
 linktitle: C# Workshop One
 next: /workshops/c-sharp-ws-2
 title: Learning C# - Workshop One

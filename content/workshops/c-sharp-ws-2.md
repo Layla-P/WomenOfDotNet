@@ -3,7 +3,7 @@ author: "Layla Porter"
 date: 2021-10-20
 profileimage: "/images/profile-pictures/layla-porter.jpg"
 image: "/images/workshops/bloom-blossom-flora.jpg"
-imagealt: "A pretty picture"
+imagealt: "A photograph of a table with a yellow rose, a pink rose and a small antique globe"
 linktitle: C# Workshop One
 next: /workshops/c-sharp-ws-3
 prev: /workshops/c-sharp-ws-1
