@@ -24,3 +24,9 @@ Please fork the repository to your own GitHub to make any changes.
 - Download Hugo from [gohugo.io](https://gohugo.io/)
 - In your preferred console, run `hugo -D server`
 - Go to the URL which is returned in the output to see the site!
+
+## Running the Website locally via docker
+
+- Install Docker if you haven't already
+- Run `docker-compose up` or `docker-compose up -d` (for detached mode) 
+- Go to [http://localhost:1313](http://localhost:1313)
