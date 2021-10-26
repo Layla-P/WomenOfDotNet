@@ -20,6 +20,8 @@
 	<link href="{{ "/css/additional.css" | urlize | relURL }}" rel="stylesheet">
 	<link href="{{ "/css/syntax.css" | urlize | relURL }}" rel="stylesheet">
 	<link href="{{ "/css/prism.css" | urlize | relURL }}" rel="stylesheet">
+	<link href="{{ "/css/dark-mode.css" | urlize | relURL }}" rel="stylesheet">
+	<link href="{{ "/css/switcher.css" | urlize | relURL }}" rel="stylesheet">
 	<!-- Custom css -->
 	{{ range .Site.Params.customCSS -}}
 	{{ $style := resources.Get . }}

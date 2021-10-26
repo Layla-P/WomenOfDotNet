@@ -1,75 +1,8 @@
-.index-title{
-    color: rgba(0,0,0,.84);
-    margin-top:20px;
-}
-.index-sub{
-    color: rgba(0,0,0,.54);
-
-}
-.index-text{
-    margin-top:20px;
-    color: rgba(0,0,0,.44);
-}
-.index-image{
-    width: 400px;
-}
-.social-icon{
-    color: rgba(0,0,0,.44);
-    font-size:1.5rem;
-}
-.clock{
-    margin-left: 25px;
-}
-.jumbotron.fortags a {
-    background: #1C9963 !important;
-}
-.error{
-    text-align: center !important;
-}
-@media(min-width: 769px){
-    .md-nopad-right{
-        padding-right: 0px !important;
-    }
-    .md-nopad-left{
-        padding-left: 0px !important;
-    }
-}
-
-.bg-custom-1 {
-    background-color: #68217a;
-  }
-  
-  .bg-custom-2 {
-  background-image: linear-gradient(15deg, #76188d 0%, #85144b 100%);
-  }
-
-  .badge-purple{
-    color: #fff;
-    background-color: #76188d;  
-  }
-  .badge-navy{
-    color: #fff;
-    background-color: #14084b;  
-  }
-.badge-purple {
-  color: #fff;
-  background-color: #76188d;
-}
-.badge-navy {
-  color: #fff;
-  background-color: #14084b;
-}
-
-ul.tags li {
-  padding: 10px 5px;
-}
-
-/* Dark Mode Toggle */
 /*
  * Dark Mode Toggle
  * Copyright (c) 2015 instructure-react
  * Forked from Dan Abramov's personal blog
- * https: //github.com/gaearon/overreacted.io/blob/master/src/components/Toggle.css
+ * https://github.com/gaearon/overreacted.io/blob/master/src/components/Toggle.css
  * MIT License
 **/
 
@@ -149,10 +82,6 @@ ul.tags li {
   opacity: 0;
 }
 
-  ul.tags li {
-    padding: 10px 5px;
-  }
-  }
 .js-toggle-thumb {
   position: absolute;
   top: 1px;
@@ -175,7 +104,6 @@ ul.tags li {
   box-shadow: 0px 0px 2px 3px rgb(255, 167, 196);
 }
 
-.js-toggle: active .js-toggle-thumb {
+.js-toggle:active .js-toggle-thumb {
   box-shadow: 0px 0px 5px 5px rgb(255, 167, 196);
 }
-/* End Dark Mode Toggle */
