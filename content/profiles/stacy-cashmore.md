@@ -1,7 +1,7 @@
 ---
 title: "Stacy Cashmore"
 profileimage: "/images/profile-pictures/stacy-cashmore-profile.jpg"
-coverimage: "/images/profile-pictures/stacy-cashmore-cover.jpg"
+coverimage: "/images/profile-pictures/stacy-cashmore-cover.png"
 tags: ["Architecture", "Azure", "Blazor", "CSharp", "DotNET", "MC", "Mentorship", "MVP", "Panels", "Serverless", "Speaking - in person", "Speaking - virtual", "Web"]
 twitter: "Stacy_Cash"
 github: "StacyCash"
@@ -28,4 +28,4 @@ Outside of software I love building Lego, and spend an hour or two each week liv
 
 ### Contact
 
-You can reach me most easily on twitter @Stacy_Cash. My DMs are open.
+You can reach me most easily on Twitter [@Stacy_Cash](https://twitter.com/Stacy_Cash). My DMs are open.
