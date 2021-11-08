@@ -1,24 +1,33 @@
 ---
-title: "Mariekie Coetzee"
-profileimage: "/images/profile-pictures/mariekie-coetzee-profile.JPG"
-coverimage: "/images/profile-pictures/mariekie-coetzee-cover.png"
-tags: ["CSharp", ".NET", "Blazor", "JavaScript", "Web", "Serverless", "React", "React Native"]
-twitter: "@mariekiecoetzee"
-github: "MariekieCoetzee"
-linkedin: "mariekie-coetzee-🇦🇺-41342a2a/"
+title: "Your Name"
+profileimage: "/images/profile-pictures/your-profile.jpg"
+coverimage: "/images/profile-pictures/your-cover.jpg"
+tags: []
+twitter: "just username"
+github: "just username"
+twitch: "just username"
+instagram: "just username"
+blogsite: ""
+linkedin: "just username - this is the bit after 'linkedin.com/in/'"
 comments: false
-summary: "A software engineer at Azenix"
+summary: "A couple of sentences about you"
 pronouns: ""
-location: "Sydney, Australia"
+draft: true
+location: ""
 ---
 
-##### 🖥️ A software engineer at Azenix
 
-A .net developer who also enjoys front end technologies like Blazor, React & 📱 React Native. I get excited when learning new technologies look forward to develop applications using new learnings.
+### About me
+##### **HEADLINE DATA**
+
+# REMOVE THIS LINE The above is called front matter - please delete the irrelevent info and remove the 'draft: true'
+
+# ADD TAGS TO THE TAG ARRAY ABOVE - TAGS ARE FOUND HERE: https://github.com/Layla-P/WomenOfDotNet/blob/main/content/profiles/_index.md  - IF YOU WANT TO ADD A TAG, MAKE A pr TO THIS FILE :-)
+
+Info on you - please change the tags above to suit you!!
+
+Please use tiny png or similar to reduce the size of your images
 
 ### Contact
 
-- LinkedIn : https://www.linkedin.com/in/mariekie-coetzee-%F0%9F%87%A6%F0%9F%87%BA-41342a2a/
-- Personal Website : http://www.mariekiecoetzee.com
-- Twitter : @mariekiecoetzee
-- Medium : https://medium.com/@mariekie
+How to contact you
