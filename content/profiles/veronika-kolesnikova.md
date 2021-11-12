@@ -1,6 +1,6 @@
 ---
 title: "Veronika Kolesnikova"
-profileimage: "/images/profile-pictures/veronika-kolesnikova.jpg"
+profileimage: "/images/profile-pictures/veronika-kolesnikova.png"
 coverimage: "/images/profile-pictures/veronika-kolesnikova-cover.jpg"
 tags: ["AI", "Machine Learning", "MVP", "Xamarin", "Azure", "Speaking - in person", "Speaking - virtual", "Mentorship", "MeetUp Organiser"]
 twitter: "veronika_dev1"
