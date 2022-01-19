@@ -2,7 +2,7 @@
 title: "Irina Dominte (Scurtu)"
 profileimage: "/images/profile-pictures/irina-scurtu.jpg"
 coverimage: "/images/profile-pictures/irina-scurtu-cover.jpg"
-tags: ["CSharp", "Architecture", "Microsoft Certified Trainer", "Trainer", "Consulting", "Microsoft MVP", "Speaking - in person", "Speaking - virtual","Azure", "Cloud", "JavaScript", "Web", "API Design", "Microservices", "REST"]
+tags: ["CSharp", "Architecture", "Microsoft Certified Trainer", "Trainer", "Consulting", "Microsoft MVP", "Speaking","Azure", "Cloud", "JavaScript", "Web", "API Design", "Microservices", "REST"]
 twitter: "irina_scurtu"
 github: "irinascurtu"
 blogsite: "https://irina.codes"
