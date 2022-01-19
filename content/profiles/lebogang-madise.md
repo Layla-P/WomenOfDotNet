@@ -19,4 +19,4 @@ I am a Developer Audience Lead at Microsoft, an intrapreneur who enjoys co-creat
 
 ### Contact
 
-Connect with me on Twitter
+Connect with me on [Twitter](https://twitter.com/LeboMadise)
