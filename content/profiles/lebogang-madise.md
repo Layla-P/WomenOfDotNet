@@ -1,8 +1,8 @@
 ---
 title: "Lebogang Madise"
-profileimage: "/images/profile-pictures/lebogang-madise-profile.png"
-coverimage: "/images/profile-pictures/lebogang-madise-cover.png"
-tags: ["CSharp", ".NET", "Azure", "Blazor"]
+profileimage: "/images/profile-pictures/lebogang-madise-profile.jpg"
+coverimage: "/images/profile-pictures/lebogang-madise-cover-land.jpg"
+tags: ["CSharp", ".NET", "Azure", "Serverless", "Blazor"]
 twitter: "LeboMadise"
 github: "Fruitymo"
 linkedin: "lebogangmadise/"
@@ -15,7 +15,7 @@ location: "Johannesburg, South Africa"
 
 ### About me
 ##### Developer Audience Lead at Microsoft
-I am a Developer Audience Lead at Microsoft, an intrapreneur who enjoys co-creating with people from multi-disciplinary backgrounds. Now learning in public how to build serverless .NET applications on Azure. 
+Lebogang, also known as *Lebo*, is driven by impact centred projects, she is an intrapreneur who enjoys co-creating with people from multi-disciplinary backgrounds. She's currently learning in public: how to build serverless .NET applications on Azure. Her motto is: *Teamwork makes the dream work.*
 
 ### Contact
 
