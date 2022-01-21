@@ -15,6 +15,20 @@
             </a>
         </li>
         {{ end }}
+        {{if .Params.tiktok}}
+        <li class="ml-1 mr-1">
+            <a target="_blank" href="https://tiktok.com/{{ .Params.twitch }}">
+                <i class="fab fa-tiktok"></i>
+            </a>
+        </li>
+        {{ end }}
+        {{if .Params.youtube}}
+        <li class="ml-1 mr-1">
+            <a target="_blank" href="{{ .Params.youtube }}">
+                <i class="fab fa-youtube"></i>
+            </a>
+        </li>
+        {{ end }}
         {{if .Params.github}}
         <li class="ml-1 mr-1">
             <a target="_blank" href="https://github.com/{{ .Params.github }}">

@@ -19,16 +19,15 @@ publishDir = "public"
   picture = "/images/women.png"
   title = "#WomenOfDotNet"
   subtitle = "A site dedicated to all the awesome individuals in the .NET space that identify as women!"
-
   alertbar = false
 
 [params.social]
   github = "Layla-p/WomenOfDotNet"
-  linkedin = "<username>"
-  xing = "<username>"
-  medium = "<username>"
   twitter = "womendotnet"
-  instagram = "<username>"
+  twitch = "wmnofdotnet"
+  instagram = "women_of_dotnet"
+  tiktok = "@womenofdotnet"
+  youtube = "https://www.youtube.com/channel/UCwzYe9J7_S0onA9f8RIc-ag/featured"
 
 ## Main Menu
 [[menu.main]]
