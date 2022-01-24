@@ -39,16 +39,21 @@ publishDir = "public"
     name = "About"
     identifier = "about"
     weight = 200
-    url = "/about"
+    url = "/about"    
+[[menu.main]]
+    name = "Events"
+    identifier = "events"
+    weight = 300
+    url = "/events"
 [[menu.main]]
     name = "Workshops"
     identifier = "workshops"
-    weight = 300
+    weight = 400
     url = "/workshops"
 [[menu.main]]
     name = "Sign up"
     identifier = "sign-up"
-    weight = 400
+    weight = 500
     url = "/sign-up"
 
 
