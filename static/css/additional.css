@@ -55,3 +55,14 @@
   ul.tags li {
     padding: 10px 5px;
   }
+
+.btn-custom{
+    color: #fff;
+    background-image: linear-gradient(15deg, #76188d 0%, #85144b 100%);
+    border-color: #85144b;   
+  }
+
+  .card-header {
+    background-color: rgba(52,8,29,.03);
+    border-bottom: 1px solid rgba(52,8,29,.125);
+}
