@@ -24,6 +24,7 @@ I have since been joined by an international team of passionate women and allies
 * [Camille Alcasid](https://twitter.com/happyalcasid)
 * [Deborah Kurata](https://twitter.com/DeborahKurata)
 * [Alyssa Nicoll](https://twitter.com/alyssanicoll)
+* [Heather Downing](https://twitter.com/quorralyne)
 
 
 ### Getting involved
