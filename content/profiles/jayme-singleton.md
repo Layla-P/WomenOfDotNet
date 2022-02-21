@@ -5,7 +5,7 @@ coverimage: "/images/profile-pictures/jayme-singleton-profile.jpg"
 tags: ["Xamarin", ".NET", "Speaking - in person", "Speaking - virtual","DevRel"]
 twitter: "jaymesingleton1"
 comments: false
-summary: "Senior Program Manager VS & .NET"
+summary: "Senior Program Manager | Visual Studio & .NET at Microsoft"
 pronouns: "She/Her"
 location: "Brooklyn, New York"
 ---
