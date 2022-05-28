@@ -1,26 +1,13 @@
-{{ define "header"}}
-    {{- partial "_shared/navbar.html" . -}}
-{{ end }}
-
 {{ define "main" }}
-<div class="main-content">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-1"></div>
-            <div class="col-md-10 error">
-                <div class="mainheading">
-                    <h1 class="posttitle">{{ .Title }}</h1> 
-                </div>
-                <div class="article-post">
-                    Oops! This is obviously not what you are looking for.<br>
-                    Click <a href="/">here</a> to start all over again.                
-                </div>
-            </div>
-            <div class="col-md-1"></div>
-        </div>
+<div class="col-xs-12 col-sm-8 col-md-9 content-column white-background">
+  {{ partial "mobile_nav_toggle.html" . }}
+  <div class="row">
+    <div class="col-lg-8">
+      <div class="content-column-content">
+        <h1>Page not found</h1>
+        <p><a href="{{ .Site.BaseURL }}">Return to the home page</a>.</p>
+      </div>
     </div>
+  </div>
 </div>
-{{ end }}
-
-{{ define "footer"}}
 {{ end }}

@@ -1,0 +1,23 @@
+<div id="sidebar" class="col-xs-6 col-sm-4 col-md-3 sidebar-offcanvas">
+  <div class="sidebar-content">
+    <h1 class="sidebar-heading"><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
+    {{ range .Site.Params.sidebarAbout }}
+      <p class="sidebar-p">{{ . | safeHTML }}</p>
+    {{ end }}
+    <ul class="sidebar-menu">
+      {{ range .Site.Params.navlinks }}
+        <li><a href="{{ absURL .url }}">{{ .name }}</a></li>
+      {{ end }}
+    </ul>
+    {{ partial "social_buttons_in_sidebar.html" . }}
+
+    <div class="copyright">
+      <p class="credit">
+        {{ with .Site.Params.copyright }}
+          {{ . | safeHTML }} |
+        {{ end }}
+        {{ partial "attribution.html" . }}
+      </p>
+    </div>
+  </div>
+</div>

@@ -1,9 +1,0 @@
-version: '3.8'
-
-services:
-  womenofdotnet-web:
-    image: yanqd0/hugo
-    volumes:
-      - .:/srv/hugo
-    ports:
-      - 1313:1313

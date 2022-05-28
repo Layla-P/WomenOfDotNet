@@ -1,0 +1,185 @@
+{
+    "portfolios":[ 
+        {
+        "name": "Alyssa Nicoll",
+        "url": "alyssa-nicoll",
+        "img":"alyssa-nicoll.png",
+        "location": "USA",
+        "tags": ["Speaking","CSharp","WinUI","Blazor",".NET","GDE","Speaking - in person","Speaking - Virtual","MC"]
+    },
+    {
+        "name": "Layla Porter",
+        "url": "layla-porter",
+        "img":"layla-porter.png",
+        "location": "UK",
+        "tags" :["CSharp", "Speaking - in person", "Speaking - virtual","MC","Panels","Mentorship", "Azure", "MVP", "JavaScript", "Blazor", "Web", "Serverless", "Microservices", "Architecture"]
+    },
+    {
+        "name": "Veronika Kolesnikova",
+        "url": "veronika-kolesnikova",
+        "img":"veronika-kolesnikova.png",
+        "location": "Boston, MA",
+        "tags" :["AI", "Machine Learning", "MVP", "Xamarin", "Azure", "Speaking - in person", "Speaking - virtual", "Mentorship", "MeetUp Organiser"]
+    },
+    {
+        "name": "Sydney Hinchcliffe",
+        "url": "sydney-hinchcliffe",
+        "img":"Sydney-CP.jpg",
+        "location": "UK",
+        "tags" :["CSharp", "FSharp", "Speaking - in person", "Speaking - virtual", "MeetUp Organiser"]
+    },
+    {
+        "name": "Sumana Haldar",
+        "url": "sumana-haldar",
+        "img":"sumana-haldar-cover.jpg",
+        "location": "virtual",
+        "tags" :["CSharp"]
+    },
+    {
+        "name": "Stacy Cashmore",
+        "url": "stacy-cashmore",
+        "img":"stacy-cashmore-profile.jpg",
+        "location": "NL",
+        "tags" :["Architecture", "Azure", "Blazor", "CSharp", "DotNET", "MC", "Mentorship", "MVP", "Panels", "Serverless", "Speaking - in person", "Speaking - virtual", "Web"]
+    },
+    {
+        "name": "Sophie Obomighie",
+        "url": "sophie-obomighie",
+        "img":"Sophie-Obomighie.jpg",
+        "location": "Lagos, Nigeria",
+        "tags" :["CSharp","Azure","MCT","Speaking - virtual"]
+    },
+    {
+        "name": "Sara Olsson",
+        "url": "sara-olsson",
+        "img":"sara-olsson-profile.jpg",
+        "location": "Sweden",
+        "tags" :["Azure", "MC", "CSharp", "Web", "Architecture", "JavaScript"]
+    },
+    {
+        "name": "Poornima Nayar",
+        "url": "poornima-nayar",
+        "img":"poornima-nayar.jpg",
+        "location": "Berkshire, UK",
+        "tags" :["MVP","Azure","CSharp","Speaking - in person","Speaking - virtual","Umbraco"]
+    },
+    {
+        "name": "Nikki Jamiolkowski",
+        "url": "nikki-jamiolkowski",
+        "img":"nikki-jamiolkowski.jpg",
+        "location": "Pennsylvania, US",
+        "tags" :["CSharp", "ASP.Net", "Azure", "Platform tools", "Speaking - in person", "Speaking - virtual", "Panels", "Non-Binary"]
+    },
+    {
+        "name": "🐈Natalie Perret🍫",
+        "url": "layla-porter",
+        "img":"",
+        "location": "",
+        "tags" :["FSharp","CSharp","Blazor","Bolero","ASP.NET Core","Event Sourcing"]
+    },
+    {
+        "name": "Melissa Houghton",
+        "url": "melissa-houghton",
+        "img":"melissa-houghton-profile.jpg",
+        "location": "Melbourne, AUS",
+        "tags" : ["CSharp", "DotNET", "Speaking - in person", "Speaking - virtual","MC","Panels","Mentorship", "Azure", "MVP", "JavaScript", "Blazor", "Web", "Serverless", "Community"]
+    },
+    {
+        "name": "Mariekie Coetzee",
+        "url": "mariekie-coetzee",
+        "img":"mariekie-coetzee-profile.JPG",
+        "location": "Sydney, Australia",
+        "tags" :["CSharp", ".NET", "Blazor", "JavaScript", "Web", "Serverless", "React", "React Native"]
+    },
+    {
+        "name": "Luce Carter",
+        "url": "luce-carter",
+        "img":"luce-carter.jpg",
+        "location": "Manchester, UK",
+        "tags" :["CSharp", "Xamarin", "MVP", "Azure", "Speaking - in person", "Speaking - virtual", "DevRel", "Europe"]
+    },
+    {
+        "name": "Lebogang Madise",
+        "url": "lebogang-madise",
+        "img":"lebogang-madise-profile.jpg",
+        "location": "Johannesburg, South Africa",
+        "tags" :["CSharp", ".NET", "Azure", "Serverless", "Blazor"]
+    },
+    {
+        "name": "Laura Rodriguez",
+        "url": "laura-rodriguez",
+        "img":"laura-rodriguez.jpg",
+        "location": "Toronto, Canada",
+        "tags" :["CSharp", "Web", "SDKs"]
+    },
+    {
+        "name": "Kendra Havens",
+        "url": "kendra-havens",
+        "img":"kendra-havens.jpg",
+        "location": "Seattle, WA",
+        "tags" :["CSharp"]
+    },
+    {
+        "name": "Katy Ashby",
+        "url": "katy-ashby",
+        "img":"katy-ashby-profile.jpg",
+        "location": "UK",
+        "tags" : ["CSharp","Speaking - virtual", "Speaking - in person", "Azure", "TypeScript", "Microservices"]
+    },
+    {
+        "name": "Katie Savage",
+        "url": "katie-savage",
+        "img":"katie-savage-profile.jpg",
+        "location": "West Hollywood, CA",
+        "tags" :["CSharp", ".NET"]
+    },
+    {
+        "name": "Jonah Andersson",
+        "url": "jonah-andersson",
+        "img":"JonahAndersson_ProfilePhoto.jpg",
+        "location": "Sweden",
+        "tags" :["CSharp", "Public Speaking","Azure Developer","Programmer","Mentorship", "AzureMVP", "DotNet", "Fullstack", "Microsoft Certified Trainer"]
+    },
+    {
+        "name": "Jayme Singleton",
+        "url": "jayme-singleton",
+        "img":"jayme-singleton.jpg",
+        "location": "Brooklyn, New York",
+        "tags" :["Xamarin", ".NET", "Speaking - in person", "Speaking - virtual","DevRel"]
+    },
+    {
+        "name": "Irina Dominte (Scurtu)",
+        "url": "irina-scurtu",
+        "img":"irina-scurtu.jpg",
+        "location": "Romania",
+        "tags" :["CSharp", "Architecture", "Microsoft Certified Trainer", "Trainer", "Consulting", "Microsoft MVP", "Speaking","Azure", "Cloud", "JavaScript", "Web", "API Design", "Microservices", "REST"]
+    },
+    {
+        "name": "Heather Downing",
+        "url": "heather-downing",
+        "img":"heather-downing-profile.jpg",
+        "location": "Kansas City, Missouri, USA",
+        "tags" : ["CSharp", "MVP", "Speaking - in person", "MC", "Panels", "Mentorship", "DevRel", "Azure", "Blazor", "Web", "Xamarin", "Microservices", "Architecture", "Security", "Identity", "Voice"]
+    },
+    {
+        "name": "Gosia Borzecka",
+        "url": "gosia-borzecka",
+        "img":"gosia-borzecka.jpg",
+        "location": "Nottingham, UK",
+        "tags" :["CSharp", ".NET", "Azure", "React", "TypeScript", "Web", "AI", "Machine Learning", "MVP", "Speaking - in person", "Speaking - virtual", "MeetUp Organiser"]
+    },
+    {
+        "name": "Deborah Kurata",
+        "url": "deborah-kurata",
+        "img":"deborah-kurata-profile.jpg",
+        "location": "San Francisco Bay Area",
+        "tags" :["Angular", "JavaScript", "TypeScript", "CSharp", ".NET", "Speaking - in person", "Speaking - virtual", "Panels", "MVP", "GDE"]
+    },
+    {
+        "name": "Olubusayo Amowe",
+        "url": "busayo-amowe",
+        "img":"busayo-amowe.jpg",
+        "location": "Lagos,Nigeria",
+        "tags" :["CSharp", ".NET",".NET core","Azure","Devops","AKS"]
+    }]
+}
