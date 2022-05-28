@@ -1,4 +1,4 @@
-baseurl = "https://womenofdot.net/"
+baseurl = "/"
 title = "#WomenOfDotNet"
 theme = "hugo-creative-portfolio-theme"
 languageCode = "en-us"
