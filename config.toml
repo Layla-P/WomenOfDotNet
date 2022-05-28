@@ -14,7 +14,7 @@ googleAnalytics = ""
   description = "A community dedicated to all the awesome individuals in the .NET space that identify as women!"
   copyright = "&copy;2020 Layla Porter"
   sidebarAbout = [
-    "A community dedicated to all the awesome individuals in the .NET space that identify as women!"
+    "A community dedicated to all the awesome individuals in the .NET space that identify as women!  Join us!"
   ]
   # Contact page
      # Since this template is static, the contact form uses www.formspree.io as a
