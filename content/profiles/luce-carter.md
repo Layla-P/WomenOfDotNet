@@ -2,7 +2,7 @@
 title: "Luce Carter"
 profileimage: "/images/profile-pictures/luce-carter.jpg"
 coverimage: "/images/profile-pictures/luce-carter-cover.png"
-tags: ["CSharp", "Xamarin", "MVP", "Azure", "Speaking - in person", "Speaking - virtual"]
+tags: ["CSharp", "Xamarin", "MVP", "Azure", "Speaking - in person", "Speaking - virtual", "DevRel", "Europe"]
 twitter: "lucecarter1"
 github: "lucecarter"
 twitch: "lucecarter"
