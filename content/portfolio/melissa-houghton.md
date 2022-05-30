@@ -27,8 +27,5 @@ Originally from California, Melissa loves to travel and now lives in Melbourne, 
 
 ### 🌐 Connect with me
 
-- Twitter: [@meliss_houghton](https://twitter.com/meliss_houghton)
-- LinkedIn: https://www.linkedin.com/in/melissahoughton/
-- Personal Website: https://melissahoughton.dev/
 - Polywork: https://www.polywork.com/melissahoughton
 - Speaker Profile: https://noti.st/melissahoughton

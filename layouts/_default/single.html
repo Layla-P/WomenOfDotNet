@@ -40,59 +40,59 @@
      <div class="mt-3">
       <p>Find me on social</p>
       <ul>
+        {{if .Params.blogsite}}
+        <li class="ml-1 mr-1">
+            <a class="social-link" target="_blank" href="{{ .Params.blogsite }}">
+                <i class="fas fa-laptop"></i> Website
+            </a>
+        </li>
+        {{ end }}
           {{if .Params.twitter}}
           <li class="ml-1 mr-1">
-              <a target="_blank" href="https://twitter.com/{{ .Params.twitter }}">
-                  <i class="fab fa-twitter"></i>
+              <a class="social-link" target="_blank" href="https://twitter.com/{{ .Params.twitter }}">
+                  <i class="fab fa-twitter"></i> Twitter
               </a>
           </li>
           {{ end }}
           {{if .Params.twitch}}
           <li class="ml-1 mr-1">
               <a target="_blank" href="https://twitch.tv/{{ .Params.twitch }}">
-                  <i class="fab fa-twitch"></i>
+                  <i class="fab fa-twitch"></i> Twitch
               </a>
           </li>
           {{ end }}
           {{if .Params.tiktok}}
           <li class="ml-1 mr-1">
-              <a target="_blank" href="https://tiktok.com/{{ .Params.twitch }}">
-                  <i class="fab fa-tiktok"></i>
+              <a class="social-link" target="_blank" href="https://tiktok.com/{{ .Params.twitch }}">
+                  <i class="fab fa-tiktok"></i> TikTok
               </a>
           </li>
           {{ end }}
           {{if .Params.youtube}}
           <li class="ml-1 mr-1">
-              <a target="_blank" href="{{ .Params.youtube }}">
-                  <i class="fab fa-youtube"></i>
+              <a class="social-link" target="_blank" href="{{ .Params.youtube }}">
+                  <i class="fab fa-youtube"></i> YouTube
               </a>
           </li>
           {{ end }}
           {{if .Params.github}}
           <li class="ml-1 mr-1">
-              <a target="_blank" href="https://github.com/{{ .Params.github }}">
-                  <i class="fab fa-github"></i>
+              <a class="social-link" target="_blank" href="https://github.com/{{ .Params.github }}">
+                  <i class="fab fa-github"></i> GitHub
               </a>
           </li>
           {{ end }}
           {{if .Params.linkedin}}
           <li class="ml-1 mr-1">
-              <a target="_blank" href="https://www.linkedin.com/in/{{ .Params.linkedin }}">
-                  <i class="fab fa-linkedin"></i>
+              <a class="social-link" target="_blank" href="https://www.linkedin.com/in/{{ .Params.linkedin }}">
+                  <i class="fab fa-linkedin"></i> LinkedIn
               </a>
           </li>
-          {{ end }}
-          {{if .Params.blogsite}}
-          <li class="ml-1 mr-1">
-              <a target="_blank" href="{{ .Params.blogsite }}">
-                  <i class="fas fa-laptop"></i>
-              </a>
-          </li>
-          {{ end }}
+          {{ end }}        
           {{if .Params.instagram}}
           <li class="ml-1 mr-1">
-              <a target="_blank" href="https://instagram.com/{{ .Params.instagram }}">
-                  <i class="fab fa-instagram"></i>
+              <a class="social-link" target="_blank" href="https://instagram.com/{{ .Params.instagram }}">
+                  <i class="fab fa-instagram"></i> Instagram
               </a>
           </li>
           {{ end }}

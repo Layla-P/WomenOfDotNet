@@ -1,23 +1,29 @@
 //get payload - becomes in memory collection
 const parentDiv = document.getElementById('Portfolios')
-function getData() {
+var masonryActive = false;
+function getData(tag) {
     jQuery(function ($) {
         $.ajax({
             url: "/data/profiles.json",
             type: "GET",
             success: function (data) {
-                var pfs = data.portfolios
-
-                while (pfs.length) {
-                    const random = Math.floor(Math.random() * pfs.length);
-                    const p = pfs.splice(random, 1)[0];
-                    let child = buildHtmlSnippet(p);
-                    parentDiv.innerHTML += child
-                }
+                document.getElementById('Portfolios').innerHTML = "";
+                let pfs = data.portfolios
+                console.log(pfs.length)
+               
+            //    if(tag !== ""){               
+            //     pfs.filter(pf => {  
+            //         return pf.tags.includes(tag);
+            //     });
+            //     masonryActive = true;
+            //    }
+               
+                buildPortfolios(pfs)
 
             },
             complete: function () {
-                masonry()
+                //addButtonListener();
+                masonry()     
             }
 
         });
@@ -27,10 +33,38 @@ function getData() {
 
 }
 
+function buildPortfolios(portfolios){
+    while (portfolios.length) {
+        const random = Math.floor(Math.random() * portfolios.length);
+        const p = portfolios.splice(random, 1)[0];
+        let child = buildHtmlSnippet(p);
+        parentDiv.innerHTML += child
+    }
+}
+
+function filterByTag(pfs, tagfilter){
+    let filteredPfs = pfs.filter(pf => {  
+        return pf.tags.includes(tagfilter);
+    });
+return filteredPfs;
+}
+
+
+
+function addButtonListener(){
+    let tagCollection = document.getElementsByClassName("js-click");
+    [...tagCollection].forEach((elem) => {
+        elem.addEventListener("click", function() {
+            getData(this.text)
+        });
+      });
+}
+
+
 function buildHtmlSnippet(p) {
     let tags = ""
     $.each(p.tags, function (t, v) {
-        tags += `<span class="badge badge-purple">${v}</span>`
+        tags += `<a class="badge badge-purple js-click">${v}</a>`
     });
     let img = ""
     if (p.img === "") {
@@ -50,7 +84,7 @@ function buildHtmlSnippet(p) {
 
         `<div class="box-masonry-text">
      
-                          <h4><a href="/portfolios/${p.name}">${p.name}</a></h4>
+                          <h4><a href="/portfolio/${p.url}">${p.name}</a></h4>
                           <div class="box-masonry-description">
                             <p class="box">${p.location}
                             </p>
@@ -77,7 +111,8 @@ function docReady(fn) {
     }
 }
 
-docReady(getData());
+docReady(getData(""));
+
 //sort data randomly
 
 // iterate over data and render out html to dom

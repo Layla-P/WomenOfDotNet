@@ -29,3 +29,9 @@ I have since been joined by an international team of passionate women and allies
 ### Getting involved
 
 If you would like to be involved more, please DM Layla on Twitter or by [email](mailto:laylap@vmware.com).
+
+
+### This website
+
+Template by [Bootstrapious.com](https://bootstrapious.com/free-templates)
+&amp; ported to Hugo by [Kishan B](https://github.com/kishaningithub)

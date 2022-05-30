@@ -21,6 +21,4 @@ location: "Sweden"
 My first code written in C# was for programming games in Unity during my M.Sc education with a focus on computer graphics. Today, the C# is mainly .Net applications that run as Azure Functions, IoT Edge modules, or other solutions to run with Azure. 
 I love being able to implement whatever application idea that hits me, and thus I'm always eager to learn I have and a growing interest in system architecture. My scope goes from image processing and generating procedural 3D models, takes a turn around fullstack web development. Then hey Docker, networking, and microcontrollers. 
 
-### Contact
 
-https://www.linkedin.com/in/sara-olsson/

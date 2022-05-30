@@ -31,13 +31,27 @@ function carousels() {
  *  masonry
  *  =======================================*/
 function masonry() {
+   
     var $grid = $('.grid').masonry({
         itemSelector: ".masonry-item"
     });
     $grid.imagesLoaded().progress(function () {
         $grid.masonry('layout');
     });
+  
 }
+function createMasonry(isActive){
+    var $grid = $('.grid').masonry({
+        itemSelector: ".masonry-item"
+    });
+    if ( isActive ) {
+        $grid.masonry('destroy'); // destroy
+      } else {
+        masonry()
+      }
+}
+
+
 /* =========================================
  *  Off-canvas menu
  *  =======================================*/

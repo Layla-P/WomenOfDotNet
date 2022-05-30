@@ -1,12 +1,12 @@
 .badge-purple {
     color: #fff;
-    background-color: #76188d;
+    background-color: #9055a2;
 }
 .badge {
     display: inline-block;
     padding: 0.25em 0.4em;
-    margin-right:  0.1em;
-    font-size: 50%;
+    margin-right:  0.25em;
+    font-size: 60%;
     font-weight: 400;
     line-height: 1;
     text-align: center;
@@ -34,12 +34,54 @@ p.box {
 }
 
 body{
-    background-color: seashell;
+    background-color: darkslategray;
 }
 
 .small-navbar-heading,
 .sidebar-heading {
     text-transform: capitalize;
+}
+.small-navbar-heading,
+.sidebar-heading {
+    font-size:24px;
+}
+
+.sidebar-menu li a,
+p.social a,
+.sidebar-p{
+    color:aliceblue;
+}
+
+.small-navbar-heading a,
+.sidebar-heading a{
+   color: #FF9FDD; 
+}
+p.social.social--big i,
+.sidebar-heading a:hover,
+.small-navbar-heading a:hover{
+    color:#9055a2;
+}
+
+.box-masonry{
+    box-shadow:0 0 5px #333; 
+}
+
+.social-link {
+    color:#9055a2;
+    text-decoration: none;
+}
+p.social.social--big i:hover,
+.social-link:hover{
+    text-decoration: none;
+    color:#FF9FDD;
+}
+a:hover{
+    text-decoration: none;
+    color:#FF9FDD;
+}
+.box-masonry .box-masonry-image.with-hover-icon:after,
+.box-masonry h4 a:hover{
+    color:#9055a2;
 }
 
 @media screen and (max-width: 767px){
