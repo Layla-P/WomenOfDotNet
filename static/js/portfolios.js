@@ -1,6 +1,6 @@
 //get payload - becomes in memory collection
 const parentDiv = document.getElementById('Portfolios')
-var masonryActive = false;
+var tags = [];
 function getData(tag) {
     jQuery(function ($) {
         $.ajax({
@@ -11,19 +11,19 @@ function getData(tag) {
                 let pfs = data.portfolios
                 console.log(pfs.length)
                
-            //    if(tag !== ""){               
-            //     pfs.filter(pf => {  
-            //         return pf.tags.includes(tag);
-            //     });
-            //     masonryActive = true;
-            //    }
+               if(tag !== ""){ 
+
+               let fpfs = filterByTag(pfs, tag)
+
+                buildPortfolios(fpfs)
+               }else{
                
                 buildPortfolios(pfs)
-
+               }
             },
             complete: function () {
-                //addButtonListener();
-                masonry()     
+                addButtonListener();
+                
             }
 
         });
@@ -32,6 +32,8 @@ function getData(tag) {
 
 
 }
+
+
 
 function buildPortfolios(portfolios){
     while (portfolios.length) {
@@ -52,13 +54,15 @@ return filteredPfs;
 
 
 function addButtonListener(){
-    let tagCollection = document.getElementsByClassName("js-click");
+    let tagCollection = document.getElementsByClassName("filter");
     [...tagCollection].forEach((elem) => {
         elem.addEventListener("click", function() {
+            console.log(this.text)
             getData(this.text)
         });
       });
 }
+
 
 
 function buildHtmlSnippet(p) {
@@ -68,36 +72,44 @@ function buildHtmlSnippet(p) {
     });
     let img = ""
     if (p.img === "") {
-        img = ``
+        img = `<div class="box">
+        <a href="/portfolio/${p.url}" class="box-masonry-image with-hover-overlay with-hover-icon" >                      
+            <div class="overlay">   
+            <div class="text"><span class="fa-solid fa-angle-right"></span></div>      
+            </div>
+        </a>
+        </div>`
     } else {
-        img = `<a href="/portfolio/${p.url}" title="" class="box-masonry-image with-hover-overlay with-hover-icon">
-    
-        <img src="/images/profile-pictures/${p.img}" alt="" class="img-responsive">
-    </a>`
+        img = `
+        <div class="box">
+        <a href="/portfolio/${p.url}" class="box-masonry-image with-hover-overlay with-hover-icon" >
+            <img src="/images/profile-pictures/${p.img}" alt="" class="img-responsive" />            
+            <div class="overlay">   
+            <div class="text"><span class="fa-solid fa-angle-right"></span></div>      
+            </div>
+        </a>
+        </div>
+    `
     }
     return `
-   
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 masonry-item">
-             
-                  <div class="box-masonry">`
-        + img +
-
-        `<div class="box-masonry-text">
-     
-                          <h4><a href="/portfolio/${p.url}">${p.name}</a></h4>
-                          <div class="box-masonry-description">
-                            <p class="box">${p.location}
-                            </p>
-                            ${tags}
-                          </div>
-                      </div>
-                  </div>
+              <div class="grid">
+             ${img}
+              <div class="grid__body">
+                <div class="relative"><a href="/portfolio/${p.url}">visit</a>
+                  <h1 class="grid__title">${p.name}</h1>
+                  <p class="grid__author">${p.location}</p>
+                </div>  
+                
+            <div class="mt-auto tags" >
+            ${tags}
+        </div>              
               </div>
+            </div>
+            
 
 `
 
 }
-
 
 
 function docReady(fn) {

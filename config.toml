@@ -59,3 +59,5 @@ googleAnalytics = ""
   github        = "https://github.com/Layla-p/WomenOfDotNet"
   youtube       = "https://www.youtube.com/channel/UCwzYe9J7_S0onA9f8RIc-ag/featured"
 
+[params.gen]
+  filtertags = ["CSharp", "FSharp", "Xamarin", "WinForms", "Azure", "AWS","MVP","GDE", "Speaking - in person", "Speaking - virtual","MC","Panels","Mentorship", "Blazor", "WinUI", "JavaScript", "Platform Tools", "MCT", "Microsoft Certified Trainer", "Web", "Serverless", "Microservices", "Architecture", "Umbraco", "MeetUp Organiser", "React", "TypeScript", "AI", "Machine Learning","Beginner", "React Native", "Angular", "Pluralsight Author", "SDKs", "Security", "Identity", "Voice", "DevRel", "Africa", "Europe", "East Asia", "Oceania", "North America", "South America", "Antarctica", "Middle East", "India", "IoT", "Bluetooth", "Azure IoT"]

@@ -5,8 +5,14 @@
     <button type="button" data-toggle="offcanvas" class="btn btn-ghost pull-left"> <i class="fa fa-align-left"> </i>Menu</button>
     <h1 class="small-navbar-heading"><a href="https://womenofdot.net">#WomenOfDotNet</a></h1>
   </div>
-  <div class="grid">
-      <div id="Portfolios" class="row">
+  <div >
+      <div id="Tags" style="margin-bottom:20px;">
+        {{range .Site.Params.gen.filtertags}}
+        
+        <a class="badge badge-purple filter">{{.}}</a>
+        {{end}}
+      </div>
+      <div id="Portfolios" class="masonry">
 
       </div>
     </div>
