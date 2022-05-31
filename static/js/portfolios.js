@@ -95,7 +95,7 @@ function buildHtmlSnippet(p) {
               <div class="grid">
              ${img}
               <div class="grid__body">
-                <div class="relative"><a href="/portfolio/${p.url}">visit</a>
+                <div class="relative">
                   <h1 class="grid__title">${p.name}</h1>
                   <p class="grid__author">${p.location}</p>
                 </div>  
