@@ -181,5 +181,13 @@
         "img":"busayo-amowe.jpg",
         "location": "Lagos,Nigeria",
         "tags" :["CSharp", ".NET",".NET core","Azure","Devops","AKS"]
-    }]
+    },
+    {
+        "name": "Robin Schroeder",
+        "url": "robin-schroeder",
+        "img":"robin-schroeder_profile.jpg",
+        "location": "Illinois, USA",
+        "tags" :["CSharp", "Xamarin", "IoT", "Bluetooth", "Azure IoT", "Azure", "Speaking - in person", "Speaking - virtual","Mentorship", "Architecture"]
+    }
+]
 }
