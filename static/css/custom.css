@@ -128,7 +128,8 @@ a:hover{
       }
       .masonry .grid__author {
         font-size: 14px;
-        font-weight: 300;
+        font-weight: 500;
+        color:#9055a2;
       }
       .masonry .grid__body {
         padding: 30px 30px;
