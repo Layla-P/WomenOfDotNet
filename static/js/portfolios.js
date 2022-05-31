@@ -73,7 +73,7 @@ function buildHtmlSnippet(p) {
     let img = ""
     if (p.img === "") {
         img = `<div class="box">
-        <a href="/portfolio/${p.url}" class="box-masonry-image with-hover-overlay with-hover-icon" >                      
+        <a href="/profiles/${p.url}" class="box-masonry-image with-hover-overlay with-hover-icon" >                      
             <div class="overlay">   
             <div class="text"><span class="fa-solid fa-angle-right"></span></div>      
             </div>
@@ -82,7 +82,7 @@ function buildHtmlSnippet(p) {
     } else {
         img = `
         <div class="box">
-        <a href="/portfolio/${p.url}" class="box-masonry-image with-hover-overlay with-hover-icon" >
+        <a href="/profiles/${p.url}" class="box-masonry-image with-hover-overlay with-hover-icon" >
             <img src="/images/profile-pictures/${p.img}" alt="" class="img-responsive" />            
             <div class="overlay">   
             <div class="text"><span class="fa-solid fa-angle-right"></span></div>      
