@@ -8,7 +8,14 @@
 <script src="{{ "js/owl.carousel.min.js" | absURL }}"></script>
 <script src="{{ "js/front.js" | absURL }}"></script>
 <script src="{{ "js/portfolios.js" | absURL }}"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FFGP481FPT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-FFGP481FPT');
+</script>
 
 
 {{ if .Site.Params.analytics.matomo }}

@@ -5,7 +5,7 @@ languageCode = "en-us"
 # Enable comments by entering your Disqus shortname
 disqusShortname = ""
 # Enable Google Analytics by entering your tracking code
-googleAnalytics = ""
+googleAnalytics = "G-FFGP481FPT"
 
 [params]
   # Style options: default (pink), blue, green, pink, red, sea, violet
@@ -42,7 +42,7 @@ googleAnalytics = ""
   # Nav links in the side bar
   [[params.navlinks]]
   name = "Home"
-  url = "portfolio/"
+  url = "profiles/"
   home = true
 
   [[params.navlinks]]
