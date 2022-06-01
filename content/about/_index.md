@@ -7,7 +7,7 @@ title = "Hello!"
 My name is Layla and I am a .NET developer! I also identify as a woman and that is less common combination in the wider .NET community.
 In January 2021, I decided to host an entire year of female speakers at the meetup group I co-organise, .NET Milton Keynes.
 
-I am often asked how to find women .NET speakers so I decided to create the #WomenOfDotNet Iniative, dedicated to all the wonderful .NET individuals that also identify as women!
+I am often asked how to find women .NET speakers so I decided to create the #WomenOfDotNet Initiative, dedicated to all the wonderful .NET individuals that also identify as women!
 
 I have since been joined by an international team of passionate women and allies, all eager to see the .NET community grow, in a good way!
 
