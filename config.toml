@@ -12,7 +12,7 @@ googleAnalytics = "G-FFGP481FPT"
   # Use custom.css for your custom styling
   style = "violet"
   description = "A community dedicated to all the awesome individuals in the .NET space that identify as women!"
-  copyright = "&copy;2020 Layla Porter"
+  copyright = "&copy;2022 Layla Porter"
   sidebarAbout = [
     "A community dedicated to all the awesome individuals in the .NET space that identify as women!  Join us!"
   ]
