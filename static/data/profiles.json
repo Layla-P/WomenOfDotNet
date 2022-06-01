@@ -188,6 +188,13 @@
         "img":"robin-schroeder_profile.jpg",
         "location": "Illinois, USA",
         "tags" :["CSharp", "Xamarin", "IoT", "Bluetooth", "Azure IoT", "Azure", "Speaking - in person", "Speaking - virtual","Mentorship", "Architecture"]
+    },
+    {
+        "name": "Laila Bougria",
+        "url": "laila-bougria",
+        "img":"laila-bougria-profile.jpg",
+        "location": "Antwerp, Belgium",
+        "tags" :["CSharp", "Speaking - in person", "Speaking - virtual", "Mentorship", "Azure", "Distributed systems", "Microservices", "Architecture", "Messaging", "Voice"]
     }
 ]
 }
