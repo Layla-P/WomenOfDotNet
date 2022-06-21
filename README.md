@@ -6,7 +6,7 @@ Hello and welcome to the source code for the [WomenOfDot.NET](https://womenofdot
 
 ## Adding yourself to the profiles index.
 
-Please use the MD template found [here](https://github.com/Layla-P/WomenOfDotNet/blob/main/content/profiles/template-please-copy.md) to create your profile - viewing it in raw form will make life easier!
+Please use the MD template found [here](https://github.com/Layla-P/WomenOfDotNet/blob/main/content/Profiles/template-please-copy.md) to create your profile - viewing it in raw form will make life easier!
 Add a cover photo for the index page and a profile picture to your personal page into this [folder](https://github.com/Layla-P/WomenOfDotNet/tree/main/static/images/profile-pictures).
 
 You can say as much or as little about yourself as you like!
