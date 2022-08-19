@@ -33,4 +33,4 @@ Also blog a lot about Azure and my tech communities engagements on my website ht
 ### Contact
 
 https://jonahandersson.tech
-mailto:jonah@jonahandersson.tech
+jonah@jonahandersson.tech
