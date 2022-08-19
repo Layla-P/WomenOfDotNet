@@ -6,7 +6,7 @@ tags: ["CSharp", "Public Speaking","Azure Developer","Programmer","Mentorship", 
 twitter: "cjkodare"
 github: "jonahandersson"
 twitch: ""
-instagram: "jonahandersson_ladyprogrammer"
+instagram: "jonahcandersson"
 blogsite: "https://jonahandersson.tech/"
 linkedin: "jonahandersson"
 comments: false
@@ -32,4 +32,5 @@ Also blog a lot about Azure and my tech communities engagements on my website ht
 
 ### Contact
 
-https://jonahandersson.tech/contact-jonah/ 
+https://jonahandersson.tech
+mailto:jonah@jonahandersson.tech
