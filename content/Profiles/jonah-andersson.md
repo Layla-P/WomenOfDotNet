@@ -2,7 +2,7 @@
 title: "Jonah Andersson"
 profileimage: "images/profile-pictures/JonahAndersson_ProfilePhoto.jpg "
 coverimage: "https://azcdnendpointjonahanderssontech.azureedge.net/wp-content/uploads/2020/05/CoverPageStartPage.png"
-tags: ["CSharp", "Public Speaking","Azure Developer","Programmer","Mentorship", "AzureMVP", "DotNet", "Fullstack", "Microsoft Certified Trainer"]
+tags: ["CSharp", "Public Speaking","Azure Developer","Programmer","Mentorship", "AzureMVP", "DotNet", "Fullstack", "MicrosoftMVP", "WomenInDotNet", "InclusiveCommunityLeader", "DevOps Engineer", "CSharp", "Mentor", "Microsoft Certified Trainer"]
 twitter: "cjkodare"
 github: "jonahandersson"
 twitch: ""
