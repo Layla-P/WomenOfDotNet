@@ -2,11 +2,11 @@
 title: "Jonah Andersson"
 profileimage: "images/profile-pictures/JonahAndersson_ProfilePhoto.jpg "
 coverimage: "https://azcdnendpointjonahanderssontech.azureedge.net/wp-content/uploads/2020/05/CoverPageStartPage.png"
-tags: ["CSharp", "Public Speaking","Azure Developer","Programmer","Mentorship", "AzureMVP", "DotNet", "Fullstack", "Microsoft Certified Trainer"]
+tags: ["CSharp", "Public Speaking","Azure Developer","Programmer","Mentorship", "AzureMVP", "DotNet", "Fullstack", "MicrosoftMVP", "WomenInDotNet", "InclusiveCommunityLeader", "DevOps Engineer", "CSharp", "Mentor", "Microsoft Certified Trainer"]
 twitter: "cjkodare"
 github: "jonahandersson"
 twitch: ""
-instagram: "jonahandersson_ladyprogrammer"
+instagram: "jonahcandersson"
 blogsite: "https://jonahandersson.tech/"
 linkedin: "jonahandersson"
 comments: false
@@ -25,11 +25,12 @@ I like continuous learning and development with Microsoft Azure and I passionate
 You will also find me making difference by advocating tech, gender equality, diversity and inclusion. 
 A role-model and a mentor to some young women in Sweden and internationally. 
 
-I am the founder and organizer of Azure User Group Sundsvall - Sweden, https://www.meetup.com/azureusergroupsundsvallsverige
+I am the founder and organizer of <a href="https://www.meetup.com/azureusergroupsundsvallsverige" target="_blank">Azure User Group Sweden</a> 
 
 Also blog a lot about Azure and my tech communities engagements on my website https://www.jonahandersson.tech
 
 
 ### Contact
 
-https://jonahandersson.tech/contact-jonah/ 
+https://jonahandersson.tech
+jonah@jonahandersson.tech
