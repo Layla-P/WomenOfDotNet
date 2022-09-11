@@ -1,7 +1,7 @@
 ---
 title: "Kristina Devochko"
 profileimage: "/images/profile-pictures/kristina-devochko-profile.jpg"
-coverimage: "/images/profile-pictures/kristina-devochko-cover.jpg"
+coverimage: "/images/profile-pictures/kristina-devochko-cover.png"
 tags: ["CSharp", "dotNET", "Cloud Native", "Azure", "Kubernetes", "Docker", "DevSecOps", "SDLC", "Software Architecture", "Sustainable Software Engineering", "Microsoft Azure MVP", "Azure Hero", "MeetUp Organiser", "Volunteer", "Speaker", "Open Sourceress", "Mentor", "Animal Welfare Advocate"]
 twitter: "kristhecodingu1"
 github: "guidemetothemoon"
