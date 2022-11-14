@@ -203,5 +203,13 @@
         "location": "Norway",
         "tags" :["CSharp", "dotNET", "Cloud Native", "Azure", "Kubernetes", "Docker", "DevSecOps", "SDLC", "Software Architecture", "Sustainable Software Engineering", "Microsoft Azure MVP", "Azure Hero", "MeetUp Organiser", "Volunteer", "Speaker", "Open Sourceress", "Mentor", "Animal Welfare Advocate"]
     }
+    ,
+    {
+        "name": "Emma Burstow",
+        "url": "emma-burstow",
+        "img":"emma-burstow-profile.jpg",
+        "location": "Odense, Denmark",
+        "tags" :["CSharp","Open-source","Hackathons","Speaking - in person","Speaking - virtual","Panels","Mentorship","MVP","Web","Umbraco","DevRel"]
+    }
 ]
 }
