@@ -195,6 +195,13 @@
         "img":"laila-bougria-profile.jpg",
         "location": "Antwerp, Belgium",
         "tags" :["CSharp", "Speaking - in person", "Speaking - virtual", "Mentorship", "Azure", "Distributed systems", "Microservices", "Architecture", "Messaging", "Voice"]
+    },
+    {
+        "name": "Kristina Devochko",
+        "url": "kristina-devochko",
+        "img":"kristina-devochko-profile.jpg",
+        "location": "Norway",
+        "tags" :["CSharp", "dotNET", "Cloud Native", "Azure", "Kubernetes", "Docker", "DevSecOps", "SDLC", "Software Architecture", "Sustainable Software Engineering", "Microsoft Azure MVP", "Azure Hero", "MeetUp Organiser", "Volunteer", "Speaker", "Open Sourceress", "Mentor", "Animal Welfare Advocate"]
     }
 ]
 }
