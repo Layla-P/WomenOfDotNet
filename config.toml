@@ -1,120 +1,63 @@
-baseURL = "https://womenofdot.net"
+baseurl = "/"
 title = "#WomenOfDotNet"
-languageCode= "en-us"
-defaultContentLanguage= "en"
-theme = "mediumish-gohugo-theme"
-summaryLength = 25
-copyright = "Layla Porter - All rights reserved"
-enableEmoji = true
-publishDir = "public"
-#googleAnalytics = "UA-1XXXXXXX1-1"
+theme = "hugo-creative-portfolio-theme"
+languageCode = "en-us"
+# Enable comments by entering your Disqus shortname
+disqusShortname = ""
+# Enable Google Analytics by entering your tracking code
+googleAnalytics = "G-FFGP481FPT"
 
 [params]
-  logo = "/images/women.png"
-  description ="A site dedicated to all the awesome individuals in the .NET space that identify as women!"
- 
+  # Style options: default (pink), blue, green, pink, red, sea, violet
+  # Use custom.css for your custom styling
+  style = "violet"
+  description = "A community dedicated to all the awesome individuals in the .NET space that identify as women!"
+  copyright = "&copy;2022 Layla Porter"
+  sidebarAbout = [
+    "A community dedicated to all the awesome individuals in the .NET space that identify as women!  Join us!"
+  ]
+  # Contact page
+     # Since this template is static, the contact form uses www.formspree.io as a
+     # proxy. The form makes a POST request to their servers to send the actual
+     # email. Visitors can send up to a 1000 emails each month for free.
+     #
+     # What you need to do for the setup?
+     #
+     # - set your email address under 'email' below
+     # - upload the generated site to your server
+     # - send a dummy email yourself to confirm your account
+     # - click the confirm link in the email from www.formspree.io
+     # - you're done. Happy mailing!
+  email = "layla@vmware.com"
 
+    # Optional Matomo analytics (formerly piwik)
+      # [params.analytics.matomo]
+      #  URL = "https://stats.example.com"
+      #  ID = "42"
+      #  # Track all subdomains with "*.example.com" (Optional)
+      #  domain = "www.example.com"
+      #  # Optional integrity check hash
+      #  hash = ""
 
-[params.index]
-  picture = "/images/women.png"
-  title = "#WomenOfDotNet"
-  subtitle = "A site dedicated to all the awesome individuals in the .NET space that identify as women!"
+  # Nav links in the side bar
+  [[params.navlinks]]
+  name = "Home"
+  url = "profiles/"
+  home = true
 
-  alertbar = false
+  [[params.navlinks]]
+  name = "About"
+  url = "about/"
 
-[params.social]
-  github = "Layla-p/WomenOfDotNet"
-  linkedin = "<username>"
-  xing = "<username>"
-  medium = "<username>"
-  twitter = "womendotnet"
-  instagram = "<username>"
+  [[params.navlinks]]
+  name = "Join us"
+  url = "contact/"
 
-## Main Menu
-[[menu.main]]
-    name = "Profiles"
-    weight = 100
-    identifier = "profiles"
-    url = "/profiles"
-[[menu.main]]
-    name = "About"
-    identifier = "about"
-    weight = 200
-    url = "/about"
-[[menu.main]]
-    name = "Workshops"
-    identifier = "workshops"
-    weight = 300
-    url = "/workshops"
-[[menu.main]]
-    name = "Sign up"
-    identifier = "sign-up"
-    weight = 400
-    url = "/sign-up"
+  [params.social]
+  email         = "layla@vmware.com"
+  twitter       = "https://twitter.com/womendotnet"
+  github        = "https://github.com/Layla-p/WomenOfDotNet"
+  youtube       = "https://www.youtube.com/channel/UCwzYe9J7_S0onA9f8RIc-ag/featured"
 
-
-
-[markup]
-  defaultMarkdownHandler = 'goldmark'
-  [markup.asciidocExt]
-    backend = 'html5'
-    extensions = []
-    failureLevel = 'fatal'
-    noHeaderOrFooter = true
-    preserveTOC = false
-    safeMode = 'unsafe'
-    sectionNumbers = false
-    trace = false
-    verbose = false
-    workingFolderCurrent = false
-    [markup.asciidocExt.attributes]
-  [markup.blackFriday]
-    angledQuotes = false
-    footnoteAnchorPrefix = ''
-    footnoteReturnLinkContents = ''
-    fractions = true
-    hrefTargetBlank = false
-    latexDashes = true
-    nofollowLinks = false
-    noreferrerLinks = false
-    plainIDAnchors = true
-    skipHTML = false
-    smartDashes = true
-    smartypants = true
-    smartypantsQuotesNBSP = false
-    taskLists = true
-  [markup.goldmark]
-    [markup.goldmark.extensions]
-      definitionList = true
-      footnote = true
-      linkify = true
-      strikethrough = true
-      table = true
-      taskList = true
-      typographer = true
-    [markup.goldmark.parser]
-      autoHeadingID = true
-      autoHeadingIDType = 'github'
-      [markup.goldmark.parser.attribute]
-        block = false
-        title = true
-    [markup.goldmark.renderer]
-      hardWraps = false
-      unsafe = false
-      xhtml = false
-  [markup.highlight]
-    anchorLineNos = false
-    codeFences = true
-    guessSyntax = false
-    hl_Lines = ''
-    lineAnchors = ''
-    lineNoStart = 1
-    lineNos = false
-    lineNumbersInTable = true
-    noClasses = true
-    style = 'monokai'
-    tabWidth = 4
-  [markup.tableOfContents]
-    endLevel = 3
-    ordered = false
-    startLevel = 2
+[params.gen]
+  filtertags = ["CSharp", "FSharp", "Xamarin", "WinForms", "Azure", "AWS","MVP","GDE", "Speaking - in person", "Speaking - virtual","MC","Panels","Mentorship", "Blazor", "WinUI", "JavaScript", "Platform Tools", "MCT", "Microsoft Certified Trainer", "Web", "Serverless", "Microservices", "Architecture", "Umbraco", "MeetUp Organiser", "React", "TypeScript", "AI", "Machine Learning","Beginner", "React Native", "Angular", "Pluralsight Author", "SDKs", "Security", "Identity", "Voice", "DevRel", "Africa", "Europe", "East Asia", "Oceania", "North America", "South America", "Antarctica", "Middle East", "India", "IoT", "Bluetooth", "Azure IoT"]

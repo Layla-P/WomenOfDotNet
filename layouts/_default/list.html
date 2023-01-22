@@ -1,47 +1,21 @@
-{{ define "header"}}
-    {{- partial "_shared/navbar.html" . -}}
-{{ end }}
-
 {{ define "main" }}
-    {{- partial "_shared/title.html" . -}}
-    <div class="main-content">
-        <div class="after-post-tags">
-            <ul class="tags">
-            {{ range .Params.tags }}
-            <li>
-            <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{.}}</a>
-            </li>
-            {{ end }}
-            </ul>
-        </div>
-        <!-- Posts Index
-        ================================================== -->
-        <section class="recent-posts">            
-            <div class="section-title">                
-                
-                {{ if eq .Type "workshop" }}
-                    <h2><span>All Workshops</span></h2> 
-                {{ else }}              
-                    <h2><span>All Profiles</span></h2> 
-                {{end}}              
-            </div>            
-            <div class="row listrecent">
-                {{ $post_paginator := .Paginate (.Pages) 9 }}
-                {{ range $post_paginator.Pages.ByParam "title" }}
-                    {{ if eq .Type "workshop" }}
-                        {{- partial "list-partials/workshop-postbox.html" . -}}
-                    {{ else }}              
-                        {{- partial "list-partials/postbox.html" . -}}
-                    {{end}}
-                {{end}}
-            </div>
-        </section>
-        {{- partial "list-partials/pagination.html" $post_paginator -}}
-    </div>
-    {{- partial "_shared/alertbar.html" . -}}
-{{ end }}
 
-{{ define "footer"}}
-    
-    {{- partial "_shared/footer.html" . -}}
+<div class="col-xs-12 col-sm-8 col-md-9 content-column">
+  <div class="small-navbar visible-xs">
+    <button type="button" data-toggle="offcanvas" class="btn btn-ghost pull-left"> <i class="fa fa-align-left"> </i>Menu</button>
+    <h1 class="small-navbar-heading"><a href="https://womenofdot.net">#WomenOfDotNet</a></h1>
+  </div>
+  <div >
+      <div id="Tags" style="margin-bottom:20px;">
+        {{range .Site.Params.gen.filtertags}}
+        
+        <a class="badge badge-purple filter">{{.}}</a>
+        {{end}}
+      </div>
+      <div id="Portfolios" class="masonry">
+
+      </div>
+    </div>
+</div>
+
 {{ end }}
