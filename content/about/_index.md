@@ -14,22 +14,6 @@ I have since been joined by an international team of passionate women and allies
 > ## Our Mission
 > #WomenOfDotNet is a growing community of developers who identify as women and their allies. It is our mission to enrich the .NET community at large and encourage women of all ages, backgrounds, and experiences to come together and create a welcoming, enriching, and inclusive environment for everyone. Whether you want to learn, mentor, catch up over a cuppa, or just plain geek out over the latest tech, there is a place for you in our community.
 
-## The Team
-* [Layla Porter](https://twitter.com/laylacodesit)
-* [Katie Savage](https://twitter.com/okatiesavage)
-* [Jayme Singleton](https://twitter.com/JaymeSingleton1)
-* [Lebogang Madise](https://twitter.com/LeboMadise)
-* [Camille Alcasid](https://twitter.com/happyalcasid)
-* [Deborah Kurata](https://twitter.com/DeborahKurata)
-* [Alyssa Nicoll](https://twitter.com/alyssanicoll)
-* [Heather Downing](https://twitter.com/quorralyne)
-
-
-
-### Getting involved
-
-If you would like to be involved more, please DM Layla on Twitter or by [email](mailto:laylap@vmware.com).
-
 
 ### This website
 
